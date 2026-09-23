@@ -31,19 +31,41 @@ set -euo pipefail
 # Date des snapshots au format AAMMJJ (ex. 240101 = 1er janvier 2024),
 # identique au nommage natif des fichiers Geofabrik.
 # Mettre "latest" pour la version la plus récente.
-DATE_YYMMDD="${DATE_YYMMDD:-240101}"
+DATE_YYMMDD="${DATE_YYMMDD:-190101}"
 
 # Base des URL Geofabrik
 BASE_URL="https://download.geofabrik.de"
 
 # Extraits à télécharger (chemins Geofabrik, sans suffixe de date ni extension)
 REGIONS=(
-  "europe/france"                          # France métropolitaine (Corse incluse)
+  #"europe/france"                          # France métropolitaine (Corse incluse)
+  "europe/france/alsace"
+  "europe/france/aquitaine"
+  "europe/france/auvergne"
+  "europe/france/basse-normandie"
+  "europe/france/bourgogne"
+  "europe/france/bretagne"
+  "europe/france/centre"
+  "europe/france/champagne-ardenne"
+  "europe/france/corse"
+  "europe/france/franche-comte"
   "europe/france/guadeloupe"               # DROM
   "europe/france/guyane"                   # DROM
+  "europe/france/haute-normandie"
+  "europe/france/ilde-de-france"
+  "europe/france/languedoc-roussillon"
+  "europe/france/limousin"
+  "europe/france/lorraine"
   "europe/france/martinique"               # DROM
   "europe/france/mayotte"                  # DROM
+  "europe/france/midi-pyrenees"
+  "europe/france/nord-pas-de-calais"
+  "europe/france/pays-de-la-loire"
+  "europe/france/picardie"
+  "europe/france/poitou-charentes"
+  "europe/france/provence-alpes-cote-d-azur"
   "europe/france/reunion"                  # DROM
+  "europe/france/rhone-alpes"
   "australia-oceania/new-caledonia"        # COM
   "australia-oceania/polynesie-francaise"  # COM
   "australia-oceania/wallis-et-futuna"     # COM
@@ -196,6 +218,64 @@ extract_island() {
   fi
 }
 
+utc_now() {
+  date -u +"%Y-%m-%dT%H:%M:%SZ"
+}
+
+sha256_of() {
+  sha256sum "$1" | awk '{print $1}'
+}
+
+write_manifest() {
+  local manifest="${OUT_DIR}/manifest.md"
+  local file
+  local hash
+  local download_date
+
+  download_date="$(utc_now)"
+
+  {
+    echo "# Source OSM"
+    echo
+    echo "- Source : [Geofabrik](https://www.geofabrik.de)"
+    echo "- Base des téléchargements : [${BASE_URL}](${BASE_URL})"
+    echo "- Date de téléchargement UTC : ${download_date}"
+    echo "- Sélecteur de snapshot Geofabrik : \`${DATE_YYMMDD}\`"
+    echo "- Licence : [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/)"
+    echo "- Attribution : © les contributeurs d’OpenStreetMap"
+    echo
+    echo "## Fichiers"
+    echo
+    echo "| Fichier | SHA-256 | Origine |"
+    echo "|---|---|---|"
+
+    while IFS= read -r -d '' file; do
+      hash="$(sha256_of "$file")"
+      printf "| \`%s\` | \`%s\` | %s |\n" \
+        "$(basename "$file")" \
+        "$hash" \
+        "Geofabrik"
+    done < <(
+      find "$OUT_DIR" \
+        -maxdepth 1 \
+        -type f \
+        -name "*.osm.pbf" \
+        -print0 \
+        | sort -z
+    )
+
+    echo
+    echo "## Notes"
+    echo
+    echo "- Les fichiers \`saint-martin\`, \`saint-barthelemy\` et \`saint-pierre-et-miquelon\` sont des extractions locales réalisées avec \`${OSMIUM_BIN} extract --bbox\`."
+    echo "- Les PBF sources continentaux utilisés temporairement pour ces extractions ne sont pas conservés dans ce répertoire."
+    echo "- Les extraits sont datés selon le mécanisme Geofabrik : \`latest\` pour l’extrait quotidien courant, ou \`AAMMJJ\` pour un snapshot historique disponible."
+    echo "- La présente analyse doit citer OpenStreetMap et ses contributeurs conformément à l’ODbL."
+  } > "$manifest"
+
+  echo "Manifest écrit : $manifest"
+}
+
 # ---------------------------------------------------------------------------
 # Exécution
 # ---------------------------------------------------------------------------
@@ -222,10 +302,27 @@ extraction des îles ignorée." >&2
   fi
 fi
 
-echo
-if [[ ${#FAILED[@]} -eq 0 ]]; then
-  echo "Terminé : ${#REGIONS[@]} fichier(s) .osm.pbf dans ${OUT_DIR}/"
-else
+if [[ ${#FAILED[@]} -ne 0 ]]; then
   echo "Terminé avec ${#FAILED[@]} échec(s) : ${FAILED[*]}" >&2
   exit 1
 fi
+
+if [[ "$EXTRACT_ISLANDS" == "1" ]]; then
+  rm -f \
+    "${OUT_DIR}/central-america-${SUFFIX}.osm.pbf" \
+    "${OUT_DIR}/central-america-${SUFFIX}.osm.pbf.md5" \
+    "${OUT_DIR}/north-america-${SUFFIX}.osm.pbf" \
+    "${OUT_DIR}/north-america-${SUFFIX}.osm.pbf.md5"
+fi
+
+write_manifest
+
+pbf_count="$(
+  find "$OUT_DIR" \
+    -maxdepth 1 \
+    -type f \
+    -name "*.osm.pbf" \
+    | wc -l
+)"
+
+echo "Terminé : ${pbf_count} fichier(s) .osm.pbf dans ${OUT_DIR}/"

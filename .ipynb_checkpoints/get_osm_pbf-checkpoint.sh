@@ -31,7 +31,7 @@ set -euo pipefail
 # Date des snapshots au format AAMMJJ (ex. 240101 = 1er janvier 2024),
 # identique au nommage natif des fichiers Geofabrik.
 # Mettre "latest" pour la version la plus récente.
-DATE_YYMMDD="${DATE_YYMMDD:-240101}"
+DATE_YYMMDD="${DATE_YYMMDD:-190101}"
 
 # Base des URL Geofabrik
 BASE_URL="https://download.geofabrik.de"
