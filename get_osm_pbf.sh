@@ -90,7 +90,7 @@ OSMIUM_BIN="${OSMIUM_BIN:-osmium}"
 # Extraits continentaux sources
 CONTINENTAL_REGIONS=(
   "central-america"   # contient Saint-Martin et Saint-Barthélemy
-  "north-america"     # contient Saint-Pierre-et-Miquelon
+  "north-america/canada"     # contient Saint-Pierre-et-Miquelon
 )
 
 # Bounding boxes au format osmium : lon_min,lat_min,lon_max,lat_max
@@ -298,11 +298,12 @@ extraction des îles ignorée." >&2
 
     extract_island "central-america" "$BBOX_SAINT_MARTIN"          "saint-martin"
     extract_island "central-america" "$BBOX_SAINT_BARTHELEMY"      "saint-barthelemy"
-    extract_island "north-america"   "$BBOX_SAINT_PIERRE_MIQUELON" "saint-pierre-et-miquelon"
+    extract_island "canada"   "$BBOX_SAINT_PIERRE_MIQUELON" "saint-pierre-et-miquelon"
   fi
 fi
 
 if [[ ${#FAILED[@]} -ne 0 ]]; then
+  write_manifest
   echo "Terminé avec ${#FAILED[@]} échec(s) : ${FAILED[*]}" >&2
   exit 1
 fi
@@ -311,8 +312,8 @@ if [[ "$EXTRACT_ISLANDS" == "1" ]]; then
   rm -f \
     "${OUT_DIR}/central-america-${SUFFIX}.osm.pbf" \
     "${OUT_DIR}/central-america-${SUFFIX}.osm.pbf.md5" \
-    "${OUT_DIR}/north-america-${SUFFIX}.osm.pbf" \
-    "${OUT_DIR}/north-america-${SUFFIX}.osm.pbf.md5"
+    "${OUT_DIR}/canada-${SUFFIX}.osm.pbf" \
+    "${OUT_DIR}/canada-${SUFFIX}.osm.pbf.md5"
 fi
 
 write_manifest
