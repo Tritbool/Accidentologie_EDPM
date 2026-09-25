@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
-
 from pyrosm import OSM
 
 
@@ -47,7 +46,12 @@ def main() -> None:
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
 
-    osm = OSM(args.pbf_path)
+    osm = OSM(
+        args.pbf_path,
+        engine="out_of_core",
+        workers="auto",
+        keep_metadata=False,
+    )
 
     roads = osm.get_network(
         network_type="all",

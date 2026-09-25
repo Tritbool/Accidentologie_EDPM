@@ -31,7 +31,7 @@ set -euo pipefail
 # Date des snapshots au format AAMMJJ (ex. 240101 = 1er janvier 2024),
 # identique au nommage natif des fichiers Geofabrik.
 # Mettre "latest" pour la version la plus récente.
-DATE_YYMMDD="${DATE_YYMMDD:-240101}"
+DATE_YYMMDD="${DATE_YYMMDD:-210101}"
 
 # Base des URL Geofabrik
 BASE_URL="https://download.geofabrik.de"
@@ -69,7 +69,7 @@ REGIONS=(
   "australia-oceania/new-caledonia"        # COM
   "australia-oceania/polynesie-francaise"  # COM
   "australia-oceania/wallis-et-futuna"     # COM
-  "australia-oceania/ile-de-clipperton"    # COM
+  #"australia-oceania/ile-de-clipperton"    # COM
 )
 
 # ---------------------------------------------------------------------------
@@ -110,7 +110,7 @@ CONTINENTAL_REGIONS=(
 # avec un polygone (--polygon) construit depuis la relation OSM de la
 # collectivité, ou filtrer les objets par la suite.
 BBOX_SAINT_MARTIN="${BBOX_SAINT_MARTIN:--63.19,18.01,-62.94,18.15}"
-BBOX_SAINT_BARTHELEMY="${BBOX_SAINT_BARTHELEMY:-63.01,17.83,-62.72,18.04}"
+BBOX_SAINT_BARTHELEMY="${BBOX_SAINT_BARTHELEMY:--63.01,17.83,-62.72,18.04}"
 BBOX_SAINT_PIERRE_MIQUELON="${BBOX_SAINT_PIERRE_MIQUELON:--56.44,46.74,-56.10,47.12}"
 # ---------------------------------------------------------------------------
 
@@ -209,7 +209,7 @@ extract_island() {
   fi
 
   echo ">> ${out_name} : ${OSMIUM_BIN} extract --bbox ${bbox}"
-  if "$OSMIUM_BIN" extract --bbox "$bbox" --overwrite --output "$out" "$src"; then
+  if "$OSMIUM_BIN" extract --strategy=complete_ways --bbox "$bbox" --overwrite --output "$out" "$src"; then
     echo "   OK -> ${out}"
   else
     rm -f "$out"
