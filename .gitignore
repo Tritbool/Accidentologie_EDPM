@@ -1,2 +1,4 @@
 *.pbf
 osm
+.ipynb_checkpoints
+manifest.md
