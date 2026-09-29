@@ -1,0 +1,73 @@
+,zone,type_voie,categorie_accident,Accidents EDPM,Avec EDPM indemne,Part avec EDPM indemne (%),EDPM indemnes (personnes),Avec EDPM blessé léger,Part avec EDPM blessé léger (%),EDPM blesses_legers (personnes),Avec EDPM hospitalisé,Part avec EDPM hospitalisé (%),EDPM hospitalises (personnes),Avec EDPM tué,Part avec EDPM tué (%),EDPM tues (personnes)
+0,En agglomération,Non apparié,Solo (sans piéton),1,0,0.0,0,1,100.0,2,0,0.0,0,0,0.0,0
+1,En agglomération,cycleway,Autre véhicule motorisé seulement,45,2,4.4,2,38,84.4,38,7,15.6,7,0,0.0,0
+2,En agglomération,cycleway,Solo (sans piéton),13,0,0.0,0,12,92.3,12,1,7.7,1,0,0.0,0
+3,En agglomération,cycleway,Autre véhicule non motorisé seulement,6,4,66.7,4,2,33.3,2,0,0.0,0,0,0.0,0
+4,En agglomération,cycleway,Piéton seul,6,4,66.7,4,1,16.7,1,1,16.7,1,0,0.0,0
+5,En agglomération,cycleway,Autre EDPM seulement,1,1,100.0,1,1,100.0,1,0,0.0,0,0,0.0,0
+6,En agglomération,cycleway,Véhicule indéterminé seulement,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+7,En agglomération,living_street,Autre véhicule motorisé seulement,10,0,0.0,0,6,60.0,6,4,40.0,4,0,0.0,0
+8,En agglomération,living_street,Piéton seul,8,8,100.0,12,0,0.0,0,0,0.0,0,0,0.0,0
+9,En agglomération,living_street,Solo (sans piéton),8,0,0.0,0,6,75.0,6,2,25.0,2,0,0.0,0
+10,En agglomération,living_street,Autre véhicule non motorisé seulement,1,1,100.0,1,0,0.0,0,0,0.0,0,0,0.0,0
+11,En agglomération,motorway,Autre véhicule motorisé seulement,1,0,0.0,0,0,0.0,0,0,0.0,0,1,100.0,1
+12,En agglomération,primary,Autre véhicule motorisé seulement,277,12,4.3,12,227,81.9,236,40,14.4,42,7,2.5,8
+13,En agglomération,primary,Solo (sans piéton),45,0,0.0,0,37,82.2,38,8,17.8,8,1,2.2,1
+14,En agglomération,primary,Piéton seul,39,30,76.9,31,9,23.1,9,0,0.0,0,0,0.0,0
+15,En agglomération,primary,Autre véhicule non motorisé seulement,29,10,34.5,10,17,58.6,17,2,6.9,2,0,0.0,0
+16,En agglomération,primary,Autre EDPM seulement,2,1,50.0,1,2,100.0,2,1,50.0,1,0,0.0,0
+17,En agglomération,primary,Combinaison de tiers,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+18,En agglomération,residential,Autre véhicule motorisé seulement,372,10,2.7,10,314,84.4,326,61,16.4,64,1,0.3,1
+19,En agglomération,residential,Solo (sans piéton),80,2,2.5,2,57,71.2,60,20,25.0,20,3,3.8,3
+20,En agglomération,residential,Piéton seul,37,32,86.5,32,4,10.8,4,0,0.0,0,0,0.0,0
+21,En agglomération,residential,Autre véhicule non motorisé seulement,25,12,48.0,12,11,44.0,11,2,8.0,2,0,0.0,0
+22,En agglomération,residential,Autre EDPM seulement,4,3,75.0,3,3,75.0,4,1,25.0,1,0,0.0,0
+23,En agglomération,residential,Véhicule indéterminé seulement,3,0,0.0,0,3,100.0,3,0,0.0,0,0,0.0,0
+24,En agglomération,secondary,Autre véhicule motorisé seulement,331,9,2.7,9,274,82.8,284,49,14.8,50,5,1.5,5
+25,En agglomération,secondary,Solo (sans piéton),71,3,4.2,3,52,73.2,53,17,23.9,17,2,2.8,2
+26,En agglomération,secondary,Piéton seul,37,30,81.1,30,7,18.9,8,0,0.0,0,0,0.0,0
+27,En agglomération,secondary,Autre véhicule non motorisé seulement,16,8,50.0,8,7,43.8,7,1,6.2,1,0,0.0,0
+28,En agglomération,secondary,Autre EDPM seulement,3,1,33.3,1,2,66.7,4,1,33.3,1,0,0.0,0
+29,En agglomération,secondary,Véhicule indéterminé seulement,3,0,0.0,0,1,33.3,1,2,66.7,2,0,0.0,0
+30,En agglomération,secondary,Combinaison de tiers,2,1,50.0,1,1,50.0,1,0,0.0,0,0,0.0,0
+31,En agglomération,service,Autre véhicule motorisé seulement,73,0,0.0,0,64,87.7,66,8,11.0,8,2,2.7,2
+32,En agglomération,service,Solo (sans piéton),14,0,0.0,0,12,85.7,12,2,14.3,2,0,0.0,0
+33,En agglomération,service,Piéton seul,9,7,77.8,7,2,22.2,2,0,0.0,0,0,0.0,0
+34,En agglomération,service,Autre véhicule non motorisé seulement,2,1,50.0,1,1,50.0,2,0,0.0,0,0,0.0,0
+35,En agglomération,service,Autre EDPM seulement,1,0,0.0,0,1,100.0,2,0,0.0,0,0,0.0,0
+36,En agglomération,service,Véhicule indéterminé seulement,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+37,En agglomération,tertiary,Autre véhicule motorisé seulement,247,9,3.6,10,202,81.8,208,40,16.2,40,3,1.2,3
+38,En agglomération,tertiary,Solo (sans piéton),36,1,2.8,1,31,86.1,32,5,13.9,5,0,0.0,0
+39,En agglomération,tertiary,Piéton seul,29,25,86.2,25,4,13.8,4,0,0.0,0,0,0.0,0
+40,En agglomération,tertiary,Autre véhicule non motorisé seulement,16,5,31.2,5,10,62.5,12,1,6.2,1,0,0.0,0
+41,En agglomération,tertiary,Véhicule indéterminé seulement,3,0,0.0,0,3,100.0,3,0,0.0,0,0,0.0,0
+42,En agglomération,tertiary,Combinaison de tiers,1,1,100.0,1,0,0.0,0,0,0.0,0,0,0.0,0
+43,En agglomération,track,Solo (sans piéton),1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+44,En agglomération,trunk,Autre véhicule motorisé seulement,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+45,En agglomération,trunk,Autre véhicule non motorisé seulement,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+46,En agglomération,trunk,Solo (sans piéton),1,0,0.0,0,0,0.0,0,1,100.0,1,0,0.0,0
+47,En agglomération,unclassified,Autre véhicule motorisé seulement,68,2,2.9,2,56,82.4,56,11,16.2,11,0,0.0,0
+48,En agglomération,unclassified,Solo (sans piéton),9,0,0.0,0,7,77.8,8,2,22.2,2,0,0.0,0
+49,En agglomération,unclassified,Piéton seul,4,4,100.0,4,0,0.0,0,0,0.0,0,0,0.0,0
+50,En agglomération,unclassified,Combinaison de tiers,2,0,0.0,0,2,100.0,2,0,0.0,0,0,0.0,0
+51,En agglomération,unclassified,Véhicule indéterminé seulement,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+52,Hors agglomération,cycleway,Piéton seul,2,0,0.0,0,2,100.0,2,0,0.0,0,0,0.0,0
+53,Hors agglomération,cycleway,Autre véhicule motorisé seulement,1,0,0.0,0,0,0.0,0,1,100.0,1,0,0.0,0
+54,Hors agglomération,cycleway,Autre véhicule non motorisé seulement,1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+55,Hors agglomération,cycleway,Solo (sans piéton),1,0,0.0,0,0,0.0,0,1,100.0,1,0,0.0,0
+56,Hors agglomération,primary,Autre véhicule motorisé seulement,12,0,0.0,0,5,41.7,5,4,33.3,4,3,25.0,3
+57,Hors agglomération,primary,Solo (sans piéton),5,0,0.0,0,2,40.0,2,2,40.0,2,1,20.0,1
+58,Hors agglomération,primary,Véhicule indéterminé seulement,2,0,0.0,0,0,0.0,0,0,0.0,0,2,100.0,2
+59,Hors agglomération,residential,Autre véhicule motorisé seulement,4,0,0.0,0,3,75.0,3,1,25.0,1,0,0.0,0
+60,Hors agglomération,residential,Solo (sans piéton),2,0,0.0,0,1,50.0,1,1,50.0,1,0,0.0,0
+61,Hors agglomération,secondary,Autre véhicule motorisé seulement,17,0,0.0,0,10,58.8,10,5,29.4,5,2,11.8,3
+62,Hors agglomération,secondary,Piéton seul,2,0,0.0,0,1,50.0,1,1,50.0,1,0,0.0,0
+63,Hors agglomération,secondary,Solo (sans piéton),1,0,0.0,0,0,0.0,0,1,100.0,1,0,0.0,0
+64,Hors agglomération,secondary,Véhicule indéterminé seulement,1,0,0.0,0,0,0.0,0,1,100.0,1,0,0.0,0
+65,Hors agglomération,service,Autre véhicule motorisé seulement,3,0,0.0,0,3,100.0,3,0,0.0,0,0,0.0,0
+66,Hors agglomération,service,Solo (sans piéton),1,0,0.0,0,1,100.0,1,0,0.0,0,0,0.0,0
+67,Hors agglomération,tertiary,Autre véhicule motorisé seulement,8,0,0.0,0,4,50.0,4,4,50.0,4,0,0.0,0
+68,Hors agglomération,tertiary,Solo (sans piéton),4,1,25.0,1,1,25.0,1,3,75.0,3,0,0.0,0
+69,Hors agglomération,trunk,Autre véhicule motorisé seulement,2,0,0.0,0,0,0.0,0,2,100.0,2,0,0.0,0
+70,Hors agglomération,unclassified,Solo (sans piéton),5,0,0.0,0,1,20.0,1,3,60.0,3,1,20.0,1
+71,Hors agglomération,unclassified,Autre véhicule motorisé seulement,4,0,0.0,0,2,50.0,2,2,50.0,2,0,0.0,0
