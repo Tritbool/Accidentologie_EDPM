@@ -79,6 +79,9 @@ EDPM hors agglomération : repérer les accidents appariés à une route OSM aut
 
 VL et cyclomoteurs près des voies cyclables : compter les accidents impliquant ces véhicules appariés à cycleway, puis examiner leur position et les règles d’accès locales. Un accident impliquant un VL peut avoir eu lieu à une traversée, sans que le VL ait circulé sur la piste. De même, certains cyclomoteurs peuvent être autorisés sur piste par décision locale.
 
+### H6 — Position relative de la dangerosité des EDPM
+
+la dangerosité attribuée aux EDPM est mal estimée relativement à celle des vélos sans assistance, des VAE et des cyclomoteurs. Le sens et l'ampleur de l'écart sont déterminés par les comparaisons, et non fixés dans l'hypothèse.
 
 ## Limites générales
 
