@@ -552,34 +552,24 @@
 │   │   ├── global-match-summary-2023.csv
 │   │   └── global-match-summary-2024.csv
 │   ├── figures
-│   │   ├── h0
-│   │   │   ├── bilan_annuel_modes_2019_2025.png
-│   │   │   ├── composition_tiers_rurale_2019_2025.png
-│   │   │   ├── composition_tiers_urbaine_2019_2025.png
-│   │   │   ├── deces_relatifs_modes_rural_2019_2025.png
-│   │   │   ├── deces_relatifs_modes_urbain_2019_2025.png
-│   │   │   ├── donnees_graphiques_2019_2025.json
-│   │   │   ├── evolution_gravite_modes_2019_2025.png
-│   │   │   ├── gravite_modes_rurale_2019_2025.png
-│   │   │   ├── gravite_modes_urbaine_2019_2025.png
-│   │   │   └── rural_evolution_2019_2025.png
-│   │   └── h0_comparatif
+│   │   └── h0
 │   │       ├── bilan_annuel_modes_2019_2025.png
-│   │       ├── bilan_gravite_annuel_2019_2025.csv
-│   │       ├── bilan_gravite_par_voie_2019_2025.csv
 │   │       ├── composition_tiers_rurale_2019_2025.png
 │   │       ├── composition_tiers_urbaine_2019_2025.png
 │   │       ├── deces_relatifs_modes_rural_2019_2025.png
 │   │       ├── deces_relatifs_modes_urbain_2019_2025.png
+│   │       ├── donnees_graphiques_2019_2025.json
 │   │       ├── evolution_gravite_modes_2019_2025.png
 │   │       ├── gravite_modes_rurale_2019_2025.png
 │   │       ├── gravite_modes_urbaine_2019_2025.png
 │   │       └── rural_evolution_2019_2025.png
-│   ├── h2_h5
-│   │   ├── cas_h2_h5_2019_2025.csv
-│   │   ├── denominateurs_h2_h5_2019_2025.csv
-│   │   ├── revue_h2_h5_2019_2025.csv
-│   │   └── scenarios_h2_h5_2019_2025.csv
+│   ├── h2_h5_geometrie
+│   │   ├── cas_enrichis_h2_h5_2019_2025.csv
+│   │   ├── controle_annuel_h2_h5_2019_2025.csv
+│   │   ├── couverture_tags_h2_h5_2019_2025.csv
+│   │   ├── croisement_baac_osm_h2_2019_2025.csv
+│   │   ├── synthese_h2_h5_2019_2025.csv
+│   │   └── verifications_h2_h5_2019_2025.csv
 │   ├── maps
 │   │   ├── 2019
 │   │   │   ├── candidates-alsace-2019-190101.geoparquet
@@ -788,8 +778,13 @@
 │   │       ├── global-match-status-2022.parquet
 │   │       ├── global-match-status-2023.parquet
 │   │       └── global-match-status-2024.parquet
-│   ├── matches
-│   │   └── reports
+│   ├── resultats_tags_h2_h5
+│   │   ├── acces_par_cellule.csv
+│   │   ├── effectifs.csv
+│   │   ├── h5_access_par_voie.csv
+│   │   ├── tag_coverage.csv
+│   │   ├── tag_motor_vehicle_x_access.csv
+│   │   └── tags_par_cellule.csv
 │   └── tables
 │       ├── accidents-analyse-2019.geoparquet
 │       ├── accidents-analyse-2020.geoparquet
@@ -816,7 +811,9 @@
 │   └── aggregates.sql
 └── src
     ├── analyse_gravite_h0.py
+    ├── analyse_h2_h5_full.py
     ├── analyse_h2_h5.py
+    ├── analyse_tags_h2_h5.py
     ├── audit_global_matches.py
     ├── bind_accident_road_candidates.py
     ├── build_accident_table.py
@@ -825,4 +822,4 @@
     ├── visualiser_gravite_h0_export.py
     └── visualiser_gravite_h0.py
 
-59 directories, 767 files
+57 directories, 766 files
