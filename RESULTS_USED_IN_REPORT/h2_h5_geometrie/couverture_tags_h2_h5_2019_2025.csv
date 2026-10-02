@@ -1,0 +1,1021 @@
+annee,zone,highway,mode,tag,cas_cibles,fichiers_avec_champ,valeurs_non_nulles,valeurs_manquantes,exemples_valeurs
+2019,En agglomération,cycleway,CYCLO,highway,27,10,27,0,cycleway
+2019,En agglomération,cycleway,CYCLO,access,27,10,0,27,
+2019,En agglomération,cycleway,CYCLO,bicycle,27,10,4,23,designated | yes
+2019,En agglomération,cycleway,CYCLO,motor_vehicle,27,10,1,26,no
+2019,En agglomération,cycleway,CYCLO,surface,27,10,5,22,asphalt | concrete:plates
+2019,En agglomération,cycleway,CYCLO,smoothness,27,10,0,27,
+2019,En agglomération,cycleway,CYCLO,cycleway,27,10,1,26,lane
+2019,En agglomération,cycleway,CYCLO,cycleway:left,27,10,0,27,
+2019,En agglomération,cycleway,CYCLO,cycleway:right,27,10,0,27,
+2019,En agglomération,cycleway,CYCLO,maxspeed,27,10,0,27,
+2019,En agglomération,cycleway,CYCLO,oneway,27,10,16,11,yes | no
+2019,En agglomération,cycleway,CYCLO,name,27,10,8,19,Quai Blanqui | Avenue du Stade de France | Route d'Albi | Avenue d'Alfortville | Avenue Jean Jaurès
+2019,En agglomération,cycleway,EDPM,highway,12,5,12,0,cycleway
+2019,En agglomération,cycleway,EDPM,access,12,5,0,12,
+2019,En agglomération,cycleway,EDPM,bicycle,12,5,1,11,designated
+2019,En agglomération,cycleway,EDPM,motor_vehicle,12,5,0,12,
+2019,En agglomération,cycleway,EDPM,surface,12,5,4,8,asphalt
+2019,En agglomération,cycleway,EDPM,smoothness,12,5,1,11,good
+2019,En agglomération,cycleway,EDPM,cycleway,12,5,1,11,sidewalk
+2019,En agglomération,cycleway,EDPM,cycleway:left,12,5,0,12,
+2019,En agglomération,cycleway,EDPM,cycleway:right,12,5,0,12,
+2019,En agglomération,cycleway,EDPM,maxspeed,12,5,0,12,
+2019,En agglomération,cycleway,EDPM,oneway,12,5,5,7,yes | no
+2019,En agglomération,cycleway,EDPM,name,12,5,6,6,Rue d'Aubervilliers | Rue de Châteaudun | Boulevard Victor | Avenue Pablo Picasso | Avenue Rhin et Danube
+2019,En agglomération,cycleway,VAE,highway,8,8,8,0,cycleway
+2019,En agglomération,cycleway,VAE,access,8,8,0,8,
+2019,En agglomération,cycleway,VAE,bicycle,8,8,1,7,designated
+2019,En agglomération,cycleway,VAE,motor_vehicle,8,8,0,8,
+2019,En agglomération,cycleway,VAE,surface,8,8,0,8,
+2019,En agglomération,cycleway,VAE,smoothness,8,8,0,8,
+2019,En agglomération,cycleway,VAE,cycleway,8,8,0,8,
+2019,En agglomération,cycleway,VAE,cycleway:left,8,8,0,8,
+2019,En agglomération,cycleway,VAE,cycleway:right,8,8,0,8,
+2019,En agglomération,cycleway,VAE,maxspeed,8,8,0,8,
+2019,En agglomération,cycleway,VAE,oneway,8,8,4,4,yes
+2019,En agglomération,cycleway,VAE,name,8,8,1,7,Avenue Jean Baptiste Clément
+2019,En agglomération,cycleway,VELO,highway,123,18,123,0,cycleway
+2019,En agglomération,cycleway,VELO,access,123,18,3,120,no | permissive
+2019,En agglomération,cycleway,VELO,bicycle,123,18,14,109,designated | yes | permissive
+2019,En agglomération,cycleway,VELO,motor_vehicle,123,18,1,122,no
+2019,En agglomération,cycleway,VELO,surface,123,18,27,96,asphalt | paved
+2019,En agglomération,cycleway,VELO,smoothness,123,18,6,117,excellent | good | intermediate
+2019,En agglomération,cycleway,VELO,cycleway,123,18,19,104,sidewalk | on_street | track | crossing | segregated
+2019,En agglomération,cycleway,VELO,cycleway:left,123,18,0,123,
+2019,En agglomération,cycleway,VELO,cycleway:right,123,18,0,123,
+2019,En agglomération,cycleway,VELO,maxspeed,123,18,0,123,
+2019,En agglomération,cycleway,VELO,oneway,123,18,60,63,yes | no
+2019,En agglomération,cycleway,VELO,name,123,18,34,89,Rue de Lagny | Boulevard de la Villette | Avenue du Stade de France | Place Bellecour | Chemin de Saint-Pierre
+2019,Hors agglomération,cycleway,CYCLO,highway,7,6,7,0,cycleway
+2019,Hors agglomération,cycleway,CYCLO,access,7,6,0,7,
+2019,Hors agglomération,cycleway,CYCLO,bicycle,7,6,1,6,designated
+2019,Hors agglomération,cycleway,CYCLO,motor_vehicle,7,6,0,7,
+2019,Hors agglomération,cycleway,CYCLO,surface,7,6,3,4,asphalt
+2019,Hors agglomération,cycleway,CYCLO,smoothness,7,6,1,6,excellent
+2019,Hors agglomération,cycleway,CYCLO,cycleway,7,6,0,7,
+2019,Hors agglomération,cycleway,CYCLO,cycleway:left,7,6,0,7,
+2019,Hors agglomération,cycleway,CYCLO,cycleway:right,7,6,0,7,
+2019,Hors agglomération,cycleway,CYCLO,maxspeed,7,6,0,7,
+2019,Hors agglomération,cycleway,CYCLO,oneway,7,6,1,6,no
+2019,Hors agglomération,cycleway,CYCLO,name,7,6,2,5,Piste Cyclable - Léon Seignosse | Voie Verte de la Vallée de l'Eure
+2019,Hors agglomération,cycleway,VELO,highway,10,7,10,0,cycleway
+2019,Hors agglomération,cycleway,VELO,access,10,7,0,10,
+2019,Hors agglomération,cycleway,VELO,bicycle,10,7,1,9,designated
+2019,Hors agglomération,cycleway,VELO,motor_vehicle,10,7,0,10,
+2019,Hors agglomération,cycleway,VELO,surface,10,7,5,5,asphalt | sand | paved
+2019,Hors agglomération,cycleway,VELO,smoothness,10,7,0,10,
+2019,Hors agglomération,cycleway,VELO,cycleway,10,7,1,9,lane
+2019,Hors agglomération,cycleway,VELO,cycleway:left,10,7,0,10,
+2019,Hors agglomération,cycleway,VELO,cycleway:right,10,7,0,10,
+2019,Hors agglomération,cycleway,VELO,maxspeed,10,7,1,9,50
+2019,Hors agglomération,cycleway,VELO,oneway,10,7,4,6,no | yes
+2019,Hors agglomération,cycleway,VELO,name,10,7,3,7,Rue des Bœufs | Rue Jean Jaurès | Piste Cyclable Toulon-Hyères
+2019,Hors agglomération,primary,EDPM,highway,1,1,1,0,primary
+2019,Hors agglomération,primary,EDPM,access,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,bicycle,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,motor_vehicle,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,surface,1,1,1,0,asphalt
+2019,Hors agglomération,primary,EDPM,smoothness,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,cycleway,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,cycleway:left,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,cycleway:right,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,maxspeed,1,1,1,0,80
+2019,Hors agglomération,primary,EDPM,oneway,1,1,0,1,
+2019,Hors agglomération,primary,EDPM,name,1,1,1,0,Rond-Point les Maringouins
+2019,Hors agglomération,secondary,EDPM,highway,1,1,1,0,secondary
+2019,Hors agglomération,secondary,EDPM,access,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,bicycle,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,motor_vehicle,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,surface,1,1,1,0,asphalt
+2019,Hors agglomération,secondary,EDPM,smoothness,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,cycleway,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,cycleway:left,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,cycleway:right,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,maxspeed,1,1,0,1,
+2019,Hors agglomération,secondary,EDPM,oneway,1,1,1,0,yes
+2019,Hors agglomération,secondary,EDPM,name,1,1,1,0,Mon Caprice
+2019,Hors agglomération,tertiary,EDPM,highway,2,1,2,0,tertiary
+2019,Hors agglomération,tertiary,EDPM,access,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,bicycle,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,motor_vehicle,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,surface,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,smoothness,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,cycleway,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,cycleway:left,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,cycleway:right,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,maxspeed,2,1,2,0,50 | 80
+2019,Hors agglomération,tertiary,EDPM,oneway,2,1,0,2,
+2019,Hors agglomération,tertiary,EDPM,name,2,1,1,1,Chemin du Pré-Jacquet
+2019,Hors agglomération,trunk,EDPM,highway,1,1,1,0,trunk
+2019,Hors agglomération,trunk,EDPM,access,1,1,0,1,
+2019,Hors agglomération,trunk,EDPM,bicycle,1,1,1,0,no
+2019,Hors agglomération,trunk,EDPM,motor_vehicle,1,1,0,1,
+2019,Hors agglomération,trunk,EDPM,surface,1,1,1,0,asphalt
+2019,Hors agglomération,trunk,EDPM,smoothness,1,1,0,1,
+2019,Hors agglomération,trunk,EDPM,cycleway,1,1,0,1,
+2019,Hors agglomération,trunk,EDPM,cycleway:left,1,1,0,1,
+2019,Hors agglomération,trunk,EDPM,cycleway:right,1,1,0,1,
+2019,Hors agglomération,trunk,EDPM,maxspeed,1,1,1,0,70
+2019,Hors agglomération,trunk,EDPM,oneway,1,1,1,0,yes
+2019,Hors agglomération,trunk,EDPM,name,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,highway,1,1,1,0,unclassified
+2019,Hors agglomération,unclassified,EDPM,access,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,bicycle,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,motor_vehicle,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,surface,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,smoothness,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,cycleway,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,cycleway:left,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,cycleway:right,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,maxspeed,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,oneway,1,1,0,1,
+2019,Hors agglomération,unclassified,EDPM,name,1,1,0,1,
+2020,En agglomération,cycleway,CYCLO,highway,23,10,23,0,cycleway
+2020,En agglomération,cycleway,CYCLO,access,23,10,0,23,
+2020,En agglomération,cycleway,CYCLO,bicycle,23,10,3,20,designated | yes
+2020,En agglomération,cycleway,CYCLO,motor_vehicle,23,10,0,23,
+2020,En agglomération,cycleway,CYCLO,surface,23,10,6,17,asphalt
+2020,En agglomération,cycleway,CYCLO,smoothness,23,10,2,21,good | excellent
+2020,En agglomération,cycleway,CYCLO,cycleway,23,10,1,22,on_street
+2020,En agglomération,cycleway,CYCLO,cycleway:left,23,10,0,23,
+2020,En agglomération,cycleway,CYCLO,cycleway:right,23,10,0,23,
+2020,En agglomération,cycleway,CYCLO,maxspeed,23,10,0,23,
+2020,En agglomération,cycleway,CYCLO,oneway,23,10,12,11,yes | no
+2020,En agglomération,cycleway,CYCLO,name,23,10,7,16,Rue Camille Desmoulins | Avenue de Flandre | Rue du Sergent Michel Berthet | Boulevard de Txingudi | Route de Grenade
+2020,En agglomération,cycleway,EDPM,highway,12,4,12,0,cycleway
+2020,En agglomération,cycleway,EDPM,access,12,4,0,12,
+2020,En agglomération,cycleway,EDPM,bicycle,12,4,0,12,
+2020,En agglomération,cycleway,EDPM,motor_vehicle,12,4,1,11,no
+2020,En agglomération,cycleway,EDPM,surface,12,4,3,9,asphalt
+2020,En agglomération,cycleway,EDPM,smoothness,12,4,0,12,
+2020,En agglomération,cycleway,EDPM,cycleway,12,4,4,8,on_street | crossing | sidewalk
+2020,En agglomération,cycleway,EDPM,cycleway:left,12,4,0,12,
+2020,En agglomération,cycleway,EDPM,cycleway:right,12,4,0,12,
+2020,En agglomération,cycleway,EDPM,maxspeed,12,4,0,12,
+2020,En agglomération,cycleway,EDPM,oneway,12,4,9,3,yes | no
+2020,En agglomération,cycleway,EDPM,name,12,4,4,8,Boulevard Morland | Boulevard de Sébastopol | Boulevard de la Villette | Avenue Laplace
+2020,En agglomération,cycleway,VAE,highway,5,5,5,0,cycleway
+2020,En agglomération,cycleway,VAE,access,5,5,0,5,
+2020,En agglomération,cycleway,VAE,bicycle,5,5,0,5,
+2020,En agglomération,cycleway,VAE,motor_vehicle,5,5,0,5,
+2020,En agglomération,cycleway,VAE,surface,5,5,1,4,asphalt
+2020,En agglomération,cycleway,VAE,smoothness,5,5,1,4,good
+2020,En agglomération,cycleway,VAE,cycleway,5,5,0,5,
+2020,En agglomération,cycleway,VAE,cycleway:left,5,5,0,5,
+2020,En agglomération,cycleway,VAE,cycleway:right,5,5,0,5,
+2020,En agglomération,cycleway,VAE,maxspeed,5,5,0,5,
+2020,En agglomération,cycleway,VAE,oneway,5,5,2,3,yes
+2020,En agglomération,cycleway,VAE,name,5,5,2,3,Avenue du Québec | Blaye-Etauliers
+2020,En agglomération,cycleway,VELO,highway,94,19,94,0,cycleway
+2020,En agglomération,cycleway,VELO,access,94,19,1,93,no
+2020,En agglomération,cycleway,VELO,bicycle,94,19,7,87,yes | designated
+2020,En agglomération,cycleway,VELO,motor_vehicle,94,19,3,91,no
+2020,En agglomération,cycleway,VELO,surface,94,19,31,63,asphalt | concrete | paved
+2020,En agglomération,cycleway,VELO,smoothness,94,19,4,90,excellent | intermediate | good
+2020,En agglomération,cycleway,VELO,cycleway,94,19,19,75,on_street | sidewalk | segregated | crossing | track
+2020,En agglomération,cycleway,VELO,cycleway:left,94,19,0,94,
+2020,En agglomération,cycleway,VELO,cycleway:right,94,19,0,94,
+2020,En agglomération,cycleway,VELO,maxspeed,94,19,0,94,
+2020,En agglomération,cycleway,VELO,oneway,94,19,59,35,yes | no
+2020,En agglomération,cycleway,VELO,name,94,19,33,61,Boulevard de Magenta | Rue du Temple | Avenue Lénine | Boulevard de Ménilmontant | Avenue de Gravelle
+2020,Hors agglomération,cycleway,CYCLO,highway,6,5,6,0,cycleway
+2020,Hors agglomération,cycleway,CYCLO,access,6,5,0,6,
+2020,Hors agglomération,cycleway,CYCLO,bicycle,6,5,0,6,
+2020,Hors agglomération,cycleway,CYCLO,motor_vehicle,6,5,0,6,
+2020,Hors agglomération,cycleway,CYCLO,surface,6,5,2,4,asphalt
+2020,Hors agglomération,cycleway,CYCLO,smoothness,6,5,1,5,excellent
+2020,Hors agglomération,cycleway,CYCLO,cycleway,6,5,0,6,
+2020,Hors agglomération,cycleway,CYCLO,cycleway:left,6,4,0,6,
+2020,Hors agglomération,cycleway,CYCLO,cycleway:right,6,4,0,6,
+2020,Hors agglomération,cycleway,CYCLO,maxspeed,6,5,0,6,
+2020,Hors agglomération,cycleway,CYCLO,oneway,6,5,1,5,yes
+2020,Hors agglomération,cycleway,CYCLO,name,6,5,0,6,
+2020,Hors agglomération,cycleway,VAE,highway,2,2,2,0,cycleway
+2020,Hors agglomération,cycleway,VAE,access,2,2,1,1,yes
+2020,Hors agglomération,cycleway,VAE,bicycle,2,2,1,1,yes
+2020,Hors agglomération,cycleway,VAE,motor_vehicle,2,2,1,1,no
+2020,Hors agglomération,cycleway,VAE,surface,2,2,1,1,paved
+2020,Hors agglomération,cycleway,VAE,smoothness,2,2,1,1,excellent
+2020,Hors agglomération,cycleway,VAE,cycleway,2,2,0,2,
+2020,Hors agglomération,cycleway,VAE,cycleway:left,2,2,0,2,
+2020,Hors agglomération,cycleway,VAE,cycleway:right,2,2,0,2,
+2020,Hors agglomération,cycleway,VAE,maxspeed,2,2,0,2,
+2020,Hors agglomération,cycleway,VAE,oneway,2,2,0,2,
+2020,Hors agglomération,cycleway,VAE,name,2,2,1,1,Piste Cyclable de la Roche-sur-Yon à Coex
+2020,Hors agglomération,cycleway,VELO,highway,10,7,10,0,cycleway
+2020,Hors agglomération,cycleway,VELO,access,10,7,1,9,no
+2020,Hors agglomération,cycleway,VELO,bicycle,10,7,5,5,yes | designated | destination
+2020,Hors agglomération,cycleway,VELO,motor_vehicle,10,7,3,7,no
+2020,Hors agglomération,cycleway,VELO,surface,10,7,7,3,asphalt | compacted | paved
+2020,Hors agglomération,cycleway,VELO,smoothness,10,7,1,9,excellent
+2020,Hors agglomération,cycleway,VELO,cycleway,10,7,0,10,
+2020,Hors agglomération,cycleway,VELO,cycleway:left,10,7,0,10,
+2020,Hors agglomération,cycleway,VELO,cycleway:right,10,7,0,10,
+2020,Hors agglomération,cycleway,VELO,maxspeed,10,7,0,10,
+2020,Hors agglomération,cycleway,VELO,oneway,10,7,3,7,no | yes
+2020,Hors agglomération,cycleway,VELO,name,10,7,3,7,Ancienne Ligne Cavaillon - Apt (Saint-Maime-Dauphin) | Pont des 2 rues | Ligne de Neuf-Brisach à Bantzenheim
+2020,Hors agglomération,primary,EDPM,highway,4,3,4,0,primary
+2020,Hors agglomération,primary,EDPM,access,4,3,0,4,
+2020,Hors agglomération,primary,EDPM,bicycle,4,3,1,3,use_sidepath
+2020,Hors agglomération,primary,EDPM,motor_vehicle,4,3,0,4,
+2020,Hors agglomération,primary,EDPM,surface,4,3,3,1,asphalt
+2020,Hors agglomération,primary,EDPM,smoothness,4,3,0,4,
+2020,Hors agglomération,primary,EDPM,cycleway,4,3,0,4,
+2020,Hors agglomération,primary,EDPM,cycleway:left,4,2,0,4,
+2020,Hors agglomération,primary,EDPM,cycleway:right,4,2,0,4,
+2020,Hors agglomération,primary,EDPM,maxspeed,4,3,2,2,50 | 70
+2020,Hors agglomération,primary,EDPM,oneway,4,3,4,0,yes
+2020,Hors agglomération,primary,EDPM,name,4,3,3,1,Rue Marius Berliet | Route de Meyrin | Route Départementale 70
+2020,Hors agglomération,residential,EDPM,highway,1,1,1,0,residential
+2020,Hors agglomération,residential,EDPM,access,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,bicycle,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,motor_vehicle,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,surface,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,smoothness,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,cycleway,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,cycleway:left,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,cycleway:right,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,maxspeed,1,1,0,1,
+2020,Hors agglomération,residential,EDPM,oneway,1,1,1,0,no
+2020,Hors agglomération,residential,EDPM,name,1,1,1,0,Rue George Samuel Perrottet
+2020,Hors agglomération,secondary,EDPM,highway,5,4,5,0,secondary
+2020,Hors agglomération,secondary,EDPM,access,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,bicycle,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,motor_vehicle,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,surface,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,smoothness,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,cycleway,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,cycleway:left,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,cycleway:right,5,4,0,5,
+2020,Hors agglomération,secondary,EDPM,maxspeed,5,4,2,3,70 | 80
+2020,Hors agglomération,secondary,EDPM,oneway,5,4,2,3,no | yes
+2020,Hors agglomération,secondary,EDPM,name,5,4,2,3,Route de Saint-Bernard | Avenue Julien Panchot
+2020,Hors agglomération,service,EDPM,highway,2,1,2,0,service
+2020,Hors agglomération,service,EDPM,access,2,1,1,1,no
+2020,Hors agglomération,service,EDPM,bicycle,2,1,0,2,
+2020,Hors agglomération,service,EDPM,motor_vehicle,2,1,0,2,
+2020,Hors agglomération,service,EDPM,surface,2,1,0,2,
+2020,Hors agglomération,service,EDPM,smoothness,2,1,0,2,
+2020,Hors agglomération,service,EDPM,cycleway,2,1,0,2,
+2020,Hors agglomération,service,EDPM,cycleway:left,2,1,0,2,
+2020,Hors agglomération,service,EDPM,cycleway:right,2,1,0,2,
+2020,Hors agglomération,service,EDPM,maxspeed,2,1,0,2,
+2020,Hors agglomération,service,EDPM,oneway,2,1,1,1,yes
+2020,Hors agglomération,service,EDPM,name,2,1,0,2,
+2020,Hors agglomération,tertiary,EDPM,highway,3,3,3,0,tertiary
+2020,Hors agglomération,tertiary,EDPM,access,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,bicycle,3,3,1,2,use_sidepath
+2020,Hors agglomération,tertiary,EDPM,motor_vehicle,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,surface,3,3,1,2,asphalt
+2020,Hors agglomération,tertiary,EDPM,smoothness,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,cycleway,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,cycleway:left,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,cycleway:right,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,maxspeed,3,3,1,2,80
+2020,Hors agglomération,tertiary,EDPM,oneway,3,3,0,3,
+2020,Hors agglomération,tertiary,EDPM,name,3,3,2,1,Avenue du Débarquement | Route du Rohrschollen
+2020,Hors agglomération,unclassified,EDPM,highway,2,1,2,0,unclassified
+2020,Hors agglomération,unclassified,EDPM,access,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,bicycle,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,motor_vehicle,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,surface,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,smoothness,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,cycleway,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,cycleway:left,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,cycleway:right,2,1,0,2,
+2020,Hors agglomération,unclassified,EDPM,maxspeed,2,1,1,1,50
+2020,Hors agglomération,unclassified,EDPM,oneway,2,1,1,1,yes
+2020,Hors agglomération,unclassified,EDPM,name,2,1,1,1,Allée de la Réserve
+2021,En agglomération,cycleway,CYCLO,highway,39,15,39,0,cycleway
+2021,En agglomération,cycleway,CYCLO,access,39,15,0,39,
+2021,En agglomération,cycleway,CYCLO,bicycle,39,15,2,37,designated
+2021,En agglomération,cycleway,CYCLO,motor_vehicle,39,15,0,39,
+2021,En agglomération,cycleway,CYCLO,surface,39,15,17,22,asphalt | paved | concrete | sett
+2021,En agglomération,cycleway,CYCLO,smoothness,39,15,0,39,
+2021,En agglomération,cycleway,CYCLO,cycleway,39,15,4,35,crossing | on_street | sidewalk
+2021,En agglomération,cycleway,CYCLO,cycleway:left,39,15,0,39,
+2021,En agglomération,cycleway,CYCLO,cycleway:right,39,15,0,39,
+2021,En agglomération,cycleway,CYCLO,maxspeed,39,15,0,39,
+2021,En agglomération,cycleway,CYCLO,oneway,39,15,19,20,yes | no
+2021,En agglomération,cycleway,CYCLO,name,39,15,8,31,Voie Verte | Pont d'Issy-les-Moulineaux | Boulevard de la Chapelle | Montée de la Boucle | Avenue Lucien Français
+2021,En agglomération,cycleway,EDPM,highway,29,12,29,0,cycleway
+2021,En agglomération,cycleway,EDPM,access,29,12,2,27,yes | no
+2021,En agglomération,cycleway,EDPM,bicycle,29,12,2,27,yes
+2021,En agglomération,cycleway,EDPM,motor_vehicle,29,12,1,28,no
+2021,En agglomération,cycleway,EDPM,surface,29,12,15,14,asphalt | paved
+2021,En agglomération,cycleway,EDPM,smoothness,29,12,1,28,excellent
+2021,En agglomération,cycleway,EDPM,cycleway,29,12,10,19,on_street | crossing | sidewalk
+2021,En agglomération,cycleway,EDPM,cycleway:left,29,12,0,29,
+2021,En agglomération,cycleway,EDPM,cycleway:right,29,12,0,29,
+2021,En agglomération,cycleway,EDPM,maxspeed,29,12,0,29,
+2021,En agglomération,cycleway,EDPM,oneway,29,12,15,14,yes | no
+2021,En agglomération,cycleway,EDPM,name,29,12,11,18,Boulevard Voltaire | Boulevard Arago | Rue Pasteur | Boulevard de la Villette | Rue Eugène Vignat
+2021,En agglomération,cycleway,VAE,highway,6,3,6,0,cycleway
+2021,En agglomération,cycleway,VAE,access,6,3,0,6,
+2021,En agglomération,cycleway,VAE,bicycle,6,3,2,4,designated
+2021,En agglomération,cycleway,VAE,motor_vehicle,6,3,1,5,no
+2021,En agglomération,cycleway,VAE,surface,6,3,4,2,asphalt
+2021,En agglomération,cycleway,VAE,smoothness,6,3,1,5,excellent
+2021,En agglomération,cycleway,VAE,cycleway,6,3,0,6,
+2021,En agglomération,cycleway,VAE,cycleway:left,6,3,0,6,
+2021,En agglomération,cycleway,VAE,cycleway:right,6,3,0,6,
+2021,En agglomération,cycleway,VAE,maxspeed,6,3,3,3,50 | 30
+2021,En agglomération,cycleway,VAE,oneway,6,3,4,2,yes
+2021,En agglomération,cycleway,VAE,name,6,3,4,2,Rue de Rivoli | Boulevard Saint-Michel | Avenue de Paris
+2021,En agglomération,cycleway,VELO,highway,123,20,123,0,cycleway
+2021,En agglomération,cycleway,VELO,access,123,20,1,122,no
+2021,En agglomération,cycleway,VELO,bicycle,123,20,10,113,designated | yes
+2021,En agglomération,cycleway,VELO,motor_vehicle,123,20,6,117,no
+2021,En agglomération,cycleway,VELO,surface,123,20,53,70,asphalt | concrete | sett | paved
+2021,En agglomération,cycleway,VELO,smoothness,123,20,3,120,good | excellent
+2021,En agglomération,cycleway,VELO,cycleway,123,20,15,108,sidewalk | on_street | crossing
+2021,En agglomération,cycleway,VELO,cycleway:left,123,19,0,123,
+2021,En agglomération,cycleway,VELO,cycleway:right,123,20,0,123,
+2021,En agglomération,cycleway,VELO,maxspeed,123,20,2,121,50
+2021,En agglomération,cycleway,VELO,oneway,123,20,64,59,yes | no
+2021,En agglomération,cycleway,VELO,name,123,20,41,82,Rue du Temple | Rue de Rivoli | Rue Jean Jaurès | Avenue Jean Jaurès | Rue de Crimée
+2021,Hors agglomération,cycleway,CYCLO,highway,5,5,5,0,cycleway
+2021,Hors agglomération,cycleway,CYCLO,access,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,bicycle,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,motor_vehicle,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,surface,5,5,2,3,paved | asphalt
+2021,Hors agglomération,cycleway,CYCLO,smoothness,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,cycleway,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,cycleway:left,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,cycleway:right,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,maxspeed,5,5,0,5,
+2021,Hors agglomération,cycleway,CYCLO,oneway,5,5,1,4,no
+2021,Hors agglomération,cycleway,CYCLO,name,5,5,1,4,Allée du Moulin des Corbeaux
+2021,Hors agglomération,cycleway,VELO,highway,14,10,14,0,cycleway
+2021,Hors agglomération,cycleway,VELO,access,14,10,0,14,
+2021,Hors agglomération,cycleway,VELO,bicycle,14,10,4,10,designated | yes
+2021,Hors agglomération,cycleway,VELO,motor_vehicle,14,10,2,12,no
+2021,Hors agglomération,cycleway,VELO,surface,14,10,3,11,asphalt | paved
+2021,Hors agglomération,cycleway,VELO,smoothness,14,10,2,12,excellent
+2021,Hors agglomération,cycleway,VELO,cycleway,14,10,0,14,
+2021,Hors agglomération,cycleway,VELO,cycleway:left,14,10,0,14,
+2021,Hors agglomération,cycleway,VELO,cycleway:right,14,10,0,14,
+2021,Hors agglomération,cycleway,VELO,maxspeed,14,10,0,14,
+2021,Hors agglomération,cycleway,VELO,oneway,14,10,3,11,yes
+2021,Hors agglomération,cycleway,VELO,name,14,10,1,13,Chemin de Halage
+2021,Hors agglomération,motorway,EDPM,highway,2,1,2,0,motorway
+2021,Hors agglomération,motorway,EDPM,access,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,bicycle,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,motor_vehicle,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,surface,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,smoothness,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,cycleway,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,cycleway:left,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,cycleway:right,2,1,0,2,
+2021,Hors agglomération,motorway,EDPM,maxspeed,2,1,2,0,70 | 90
+2021,Hors agglomération,motorway,EDPM,oneway,2,1,2,0,yes
+2021,Hors agglomération,motorway,EDPM,name,2,1,1,1,Tunnel de la Défense
+2021,Hors agglomération,primary,EDPM,highway,10,8,10,0,primary
+2021,Hors agglomération,primary,EDPM,access,10,8,0,10,
+2021,Hors agglomération,primary,EDPM,bicycle,10,8,0,10,
+2021,Hors agglomération,primary,EDPM,motor_vehicle,10,8,0,10,
+2021,Hors agglomération,primary,EDPM,surface,10,8,6,4,asphalt
+2021,Hors agglomération,primary,EDPM,smoothness,10,8,0,10,
+2021,Hors agglomération,primary,EDPM,cycleway,10,8,3,7,lane | no
+2021,Hors agglomération,primary,EDPM,cycleway:left,10,8,0,10,
+2021,Hors agglomération,primary,EDPM,cycleway:right,10,8,0,10,
+2021,Hors agglomération,primary,EDPM,maxspeed,10,8,6,4,80 | 50 | 90
+2021,Hors agglomération,primary,EDPM,oneway,10,8,4,6,yes | no
+2021,Hors agglomération,primary,EDPM,name,10,8,5,5,Route de Nice | Rocade Nord-Ouest | Avenue André Dulin | Route de Choisy | Voie de la Liberté
+2021,Hors agglomération,residential,EDPM,highway,1,1,1,0,residential
+2021,Hors agglomération,residential,EDPM,access,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,bicycle,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,motor_vehicle,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,surface,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,smoothness,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,cycleway,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,cycleway:left,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,cycleway:right,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,maxspeed,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,oneway,1,1,0,1,
+2021,Hors agglomération,residential,EDPM,name,1,1,1,0,Rue François Villon
+2021,Hors agglomération,secondary,EDPM,highway,6,6,6,0,secondary
+2021,Hors agglomération,secondary,EDPM,access,6,6,0,6,
+2021,Hors agglomération,secondary,EDPM,bicycle,6,6,1,5,yes
+2021,Hors agglomération,secondary,EDPM,motor_vehicle,6,6,0,6,
+2021,Hors agglomération,secondary,EDPM,surface,6,6,1,5,asphalt
+2021,Hors agglomération,secondary,EDPM,smoothness,6,6,0,6,
+2021,Hors agglomération,secondary,EDPM,cycleway,6,6,0,6,
+2021,Hors agglomération,secondary,EDPM,cycleway:left,6,6,0,6,
+2021,Hors agglomération,secondary,EDPM,cycleway:right,6,6,0,6,
+2021,Hors agglomération,secondary,EDPM,maxspeed,6,6,2,4,70 | 50
+2021,Hors agglomération,secondary,EDPM,oneway,6,6,1,5,yes
+2021,Hors agglomération,secondary,EDPM,name,6,6,1,5,Quai Lamblardie
+2021,Hors agglomération,service,EDPM,highway,2,2,2,0,service
+2021,Hors agglomération,service,EDPM,access,2,2,0,2,
+2021,Hors agglomération,service,EDPM,bicycle,2,2,0,2,
+2021,Hors agglomération,service,EDPM,motor_vehicle,2,2,0,2,
+2021,Hors agglomération,service,EDPM,surface,2,2,0,2,
+2021,Hors agglomération,service,EDPM,smoothness,2,2,0,2,
+2021,Hors agglomération,service,EDPM,cycleway,2,2,0,2,
+2021,Hors agglomération,service,EDPM,cycleway:left,2,2,0,2,
+2021,Hors agglomération,service,EDPM,cycleway:right,2,2,0,2,
+2021,Hors agglomération,service,EDPM,maxspeed,2,2,0,2,
+2021,Hors agglomération,service,EDPM,oneway,2,2,1,1,yes
+2021,Hors agglomération,service,EDPM,name,2,2,0,2,
+2021,Hors agglomération,tertiary,EDPM,highway,8,8,8,0,tertiary
+2021,Hors agglomération,tertiary,EDPM,access,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,bicycle,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,motor_vehicle,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,surface,8,8,2,6,asphalt
+2021,Hors agglomération,tertiary,EDPM,smoothness,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,cycleway,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,cycleway:left,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,cycleway:right,8,8,0,8,
+2021,Hors agglomération,tertiary,EDPM,maxspeed,8,8,1,7,80
+2021,Hors agglomération,tertiary,EDPM,oneway,8,8,1,7,yes
+2021,Hors agglomération,tertiary,EDPM,name,8,8,4,4,Rue de Fontenay | Route de Sainte-Croix | Promenade de l'Arve | Route de Saint-Brès
+2021,Hors agglomération,unclassified,EDPM,highway,5,5,5,0,unclassified
+2021,Hors agglomération,unclassified,EDPM,access,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,bicycle,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,motor_vehicle,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,surface,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,smoothness,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,cycleway,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,cycleway:left,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,cycleway:right,5,5,0,5,
+2021,Hors agglomération,unclassified,EDPM,maxspeed,5,5,2,3,80 | 50
+2021,Hors agglomération,unclassified,EDPM,oneway,5,5,2,3,yes
+2021,Hors agglomération,unclassified,EDPM,name,5,5,3,2,Rue François Truffaut | Chemin de la Rue Picot | Route de Toussieu
+2022,En agglomération,cycleway,CYCLO,highway,34,11,34,0,cycleway
+2022,En agglomération,cycleway,CYCLO,access,34,11,1,33,destination
+2022,En agglomération,cycleway,CYCLO,bicycle,34,11,5,29,yes | designated
+2022,En agglomération,cycleway,CYCLO,motor_vehicle,34,11,2,32,no
+2022,En agglomération,cycleway,CYCLO,surface,34,11,19,15,asphalt | concrete
+2022,En agglomération,cycleway,CYCLO,smoothness,34,11,1,33,excellent
+2022,En agglomération,cycleway,CYCLO,cycleway,34,11,1,33,sidewalk
+2022,En agglomération,cycleway,CYCLO,cycleway:left,34,11,0,34,
+2022,En agglomération,cycleway,CYCLO,cycleway:right,34,11,0,34,
+2022,En agglomération,cycleway,CYCLO,maxspeed,34,11,0,34,
+2022,En agglomération,cycleway,CYCLO,oneway,34,11,18,16,yes | no
+2022,En agglomération,cycleway,CYCLO,name,34,11,6,28,Avenue Gambetta | Avenue Jean Lolive | Boulevard Lefebvre | Voie Cyclable de l'Ancienne Voie Ferrée | Rue de Bourges
+2022,En agglomération,cycleway,EDPM,highway,45,16,45,0,cycleway
+2022,En agglomération,cycleway,EDPM,access,45,16,0,45,
+2022,En agglomération,cycleway,EDPM,bicycle,45,16,7,38,designated
+2022,En agglomération,cycleway,EDPM,motor_vehicle,45,16,1,44,no
+2022,En agglomération,cycleway,EDPM,surface,45,16,24,21,asphalt | concrete | gravel
+2022,En agglomération,cycleway,EDPM,smoothness,45,16,2,43,good
+2022,En agglomération,cycleway,EDPM,cycleway,45,16,3,42,on_street | sidewalk
+2022,En agglomération,cycleway,EDPM,cycleway:left,45,16,0,45,
+2022,En agglomération,cycleway,EDPM,cycleway:right,45,16,0,45,
+2022,En agglomération,cycleway,EDPM,maxspeed,45,16,0,45,
+2022,En agglomération,cycleway,EDPM,oneway,45,16,32,13,yes | no
+2022,En agglomération,cycleway,EDPM,name,45,16,13,32,Rue de Vaugirard | Avenue Laplace | Boulevard Yves Guillou | Boulevard Auguste Blanqui | Avenue Victor Hugo
+2022,En agglomération,cycleway,VAE,highway,13,9,13,0,cycleway
+2022,En agglomération,cycleway,VAE,access,13,9,0,13,
+2022,En agglomération,cycleway,VAE,bicycle,13,9,2,11,designated | yes
+2022,En agglomération,cycleway,VAE,motor_vehicle,13,9,0,13,
+2022,En agglomération,cycleway,VAE,surface,13,9,6,7,asphalt
+2022,En agglomération,cycleway,VAE,smoothness,13,9,0,13,
+2022,En agglomération,cycleway,VAE,cycleway,13,9,2,11,on_street
+2022,En agglomération,cycleway,VAE,cycleway:left,13,9,0,13,
+2022,En agglomération,cycleway,VAE,cycleway:right,13,9,0,13,
+2022,En agglomération,cycleway,VAE,maxspeed,13,9,0,13,
+2022,En agglomération,cycleway,VAE,oneway,13,9,9,4,yes | no
+2022,En agglomération,cycleway,VAE,name,13,9,5,8,Route de Neufchâtel | Rue de la Brigade Alsace-Lorraine | Cours Albert 1er | Avenue Gambetta | Avenue de Plantoun
+2022,En agglomération,cycleway,VELO,highway,106,18,106,0,cycleway
+2022,En agglomération,cycleway,VELO,access,106,18,0,106,
+2022,En agglomération,cycleway,VELO,bicycle,106,18,13,93,designated | yes
+2022,En agglomération,cycleway,VELO,motor_vehicle,106,18,7,99,no | destination | yes
+2022,En agglomération,cycleway,VELO,surface,106,18,50,56,asphalt | concrete | compacted
+2022,En agglomération,cycleway,VELO,smoothness,106,18,4,102,good | excellent
+2022,En agglomération,cycleway,VELO,cycleway,106,18,10,96,on_street | sidewalk | crossing
+2022,En agglomération,cycleway,VELO,cycleway:left,106,18,0,106,
+2022,En agglomération,cycleway,VELO,cycleway:right,106,18,0,106,
+2022,En agglomération,cycleway,VELO,maxspeed,106,18,2,104,30
+2022,En agglomération,cycleway,VELO,oneway,106,18,57,49,yes | no
+2022,En agglomération,cycleway,VELO,name,106,18,39,67,Rue de la Brigade Alsace-Lorraine | Rue de Rivoli | Boulevard Voltaire | Avenue Gaston Berger | Cours Jean Jaurès
+2022,Hors agglomération,cycleway,CYCLO,highway,7,6,7,0,cycleway
+2022,Hors agglomération,cycleway,CYCLO,access,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,bicycle,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,motor_vehicle,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,surface,7,6,4,3,asphalt
+2022,Hors agglomération,cycleway,CYCLO,smoothness,7,6,2,5,excellent | intermediate
+2022,Hors agglomération,cycleway,CYCLO,cycleway,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,cycleway:left,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,cycleway:right,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,maxspeed,7,6,0,7,
+2022,Hors agglomération,cycleway,CYCLO,oneway,7,6,1,6,yes
+2022,Hors agglomération,cycleway,CYCLO,name,7,6,0,7,
+2022,Hors agglomération,cycleway,EDPM,highway,1,1,1,0,cycleway
+2022,Hors agglomération,cycleway,EDPM,access,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,bicycle,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,motor_vehicle,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,surface,1,1,1,0,paved
+2022,Hors agglomération,cycleway,EDPM,smoothness,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,cycleway,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,cycleway:left,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,cycleway:right,1,1,0,1,
+2022,Hors agglomération,cycleway,EDPM,maxspeed,1,1,1,0,50
+2022,Hors agglomération,cycleway,EDPM,oneway,1,1,1,0,yes
+2022,Hors agglomération,cycleway,EDPM,name,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,highway,1,1,1,0,cycleway
+2022,Hors agglomération,cycleway,VAE,access,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,bicycle,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,motor_vehicle,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,surface,1,1,1,0,asphalt
+2022,Hors agglomération,cycleway,VAE,smoothness,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,cycleway,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,cycleway:left,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,cycleway:right,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,maxspeed,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,oneway,1,1,0,1,
+2022,Hors agglomération,cycleway,VAE,name,1,1,0,1,
+2022,Hors agglomération,cycleway,VELO,highway,7,6,7,0,cycleway
+2022,Hors agglomération,cycleway,VELO,access,7,6,0,7,
+2022,Hors agglomération,cycleway,VELO,bicycle,7,6,2,5,designated
+2022,Hors agglomération,cycleway,VELO,motor_vehicle,7,6,1,6,no
+2022,Hors agglomération,cycleway,VELO,surface,7,6,4,3,asphalt | paved
+2022,Hors agglomération,cycleway,VELO,smoothness,7,6,1,6,excellent
+2022,Hors agglomération,cycleway,VELO,cycleway,7,6,0,7,
+2022,Hors agglomération,cycleway,VELO,cycleway:left,7,6,0,7,
+2022,Hors agglomération,cycleway,VELO,cycleway:right,7,6,0,7,
+2022,Hors agglomération,cycleway,VELO,maxspeed,7,6,0,7,
+2022,Hors agglomération,cycleway,VELO,oneway,7,6,0,7,
+2022,Hors agglomération,cycleway,VELO,name,7,6,1,6,Voie verte - véloroute de la pointe de caux
+2022,Hors agglomération,primary,EDPM,highway,19,11,19,0,primary
+2022,Hors agglomération,primary,EDPM,access,19,11,0,19,
+2022,Hors agglomération,primary,EDPM,bicycle,19,11,0,19,
+2022,Hors agglomération,primary,EDPM,motor_vehicle,19,11,0,19,
+2022,Hors agglomération,primary,EDPM,surface,19,11,11,8,asphalt | paved
+2022,Hors agglomération,primary,EDPM,smoothness,19,11,0,19,
+2022,Hors agglomération,primary,EDPM,cycleway,19,11,4,15,lane
+2022,Hors agglomération,primary,EDPM,cycleway:left,19,11,0,19,
+2022,Hors agglomération,primary,EDPM,cycleway:right,19,11,2,17,no
+2022,Hors agglomération,primary,EDPM,maxspeed,19,11,13,6,80 | 70 | 90 | 50
+2022,Hors agglomération,primary,EDPM,oneway,19,11,5,14,yes | no
+2022,Hors agglomération,primary,EDPM,name,19,11,8,11,Rue du Grand Chemin | Route de Ceinture Ouest | Rond-Point de Montgermont | Route de l'Almanarre | Route de Megève
+2022,Hors agglomération,residential,EDPM,highway,6,6,6,0,residential
+2022,Hors agglomération,residential,EDPM,access,6,6,0,6,
+2022,Hors agglomération,residential,EDPM,bicycle,6,6,0,6,
+2022,Hors agglomération,residential,EDPM,motor_vehicle,6,6,0,6,
+2022,Hors agglomération,residential,EDPM,surface,6,6,5,1,asphalt
+2022,Hors agglomération,residential,EDPM,smoothness,6,6,0,6,
+2022,Hors agglomération,residential,EDPM,cycleway,6,6,1,5,opposite
+2022,Hors agglomération,residential,EDPM,cycleway:left,6,6,0,6,
+2022,Hors agglomération,residential,EDPM,cycleway:right,6,6,0,6,
+2022,Hors agglomération,residential,EDPM,maxspeed,6,6,3,3,30 | 50
+2022,Hors agglomération,residential,EDPM,oneway,6,6,2,4,no | yes
+2022,Hors agglomération,residential,EDPM,name,6,6,6,0,Rue Émile Zola | Rue Bara | Rue des Érables | Impasse du fruit rouge | Rue du Maine
+2022,Hors agglomération,secondary,EDPM,highway,21,14,21,0,secondary
+2022,Hors agglomération,secondary,EDPM,access,21,14,0,21,
+2022,Hors agglomération,secondary,EDPM,bicycle,21,14,0,21,
+2022,Hors agglomération,secondary,EDPM,motor_vehicle,21,14,0,21,
+2022,Hors agglomération,secondary,EDPM,surface,21,14,11,10,asphalt
+2022,Hors agglomération,secondary,EDPM,smoothness,21,14,0,21,
+2022,Hors agglomération,secondary,EDPM,cycleway,21,14,1,20,lane
+2022,Hors agglomération,secondary,EDPM,cycleway:left,21,14,0,21,
+2022,Hors agglomération,secondary,EDPM,cycleway:right,21,14,2,19,separate | lane
+2022,Hors agglomération,secondary,EDPM,maxspeed,21,14,9,12,80 | 50 | 90 | 70
+2022,Hors agglomération,secondary,EDPM,oneway,21,14,9,12,yes | no
+2022,Hors agglomération,secondary,EDPM,name,21,14,14,7,Avenue Benoit Frachon | Route de Saint-Tropez | Rue Arsène Houssaye | Pont de l'Île de Ré | Route de Louens
+2022,Hors agglomération,service,EDPM,highway,4,3,4,0,service
+2022,Hors agglomération,service,EDPM,access,4,3,0,4,
+2022,Hors agglomération,service,EDPM,bicycle,4,3,0,4,
+2022,Hors agglomération,service,EDPM,motor_vehicle,4,3,0,4,
+2022,Hors agglomération,service,EDPM,surface,4,3,1,3,asphalt
+2022,Hors agglomération,service,EDPM,smoothness,4,3,0,4,
+2022,Hors agglomération,service,EDPM,cycleway,4,3,0,4,
+2022,Hors agglomération,service,EDPM,cycleway:left,4,3,0,4,
+2022,Hors agglomération,service,EDPM,cycleway:right,4,3,0,4,
+2022,Hors agglomération,service,EDPM,maxspeed,4,3,0,4,
+2022,Hors agglomération,service,EDPM,oneway,4,3,0,4,
+2022,Hors agglomération,service,EDPM,name,4,3,0,4,
+2022,Hors agglomération,tertiary,EDPM,highway,12,7,12,0,tertiary
+2022,Hors agglomération,tertiary,EDPM,access,12,7,0,12,
+2022,Hors agglomération,tertiary,EDPM,bicycle,12,7,1,11,yes
+2022,Hors agglomération,tertiary,EDPM,motor_vehicle,12,7,0,12,
+2022,Hors agglomération,tertiary,EDPM,surface,12,7,6,6,asphalt
+2022,Hors agglomération,tertiary,EDPM,smoothness,12,7,1,11,excellent
+2022,Hors agglomération,tertiary,EDPM,cycleway,12,7,1,11,no
+2022,Hors agglomération,tertiary,EDPM,cycleway:left,12,7,1,11,lane
+2022,Hors agglomération,tertiary,EDPM,cycleway:right,12,7,0,12,
+2022,Hors agglomération,tertiary,EDPM,maxspeed,12,7,3,9,80 | 30 | 50
+2022,Hors agglomération,tertiary,EDPM,oneway,12,7,2,10,yes
+2022,Hors agglomération,tertiary,EDPM,name,12,7,8,4,Rue Suzanne Lanoy | Route de Saint-Andiol | Route d'Annecy | Rue du Faisceau | Route des Cinq Chemins
+2022,Hors agglomération,trunk,EDPM,highway,2,2,2,0,trunk
+2022,Hors agglomération,trunk,EDPM,access,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,bicycle,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,motor_vehicle,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,surface,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,smoothness,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,cycleway,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,cycleway:left,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,cycleway:right,2,2,0,2,
+2022,Hors agglomération,trunk,EDPM,maxspeed,2,2,2,0,90 | 110
+2022,Hors agglomération,trunk,EDPM,oneway,2,2,2,0,yes
+2022,Hors agglomération,trunk,EDPM,name,2,2,0,2,
+2022,Hors agglomération,unclassified,EDPM,highway,9,6,9,0,unclassified
+2022,Hors agglomération,unclassified,EDPM,access,9,6,1,8,yes
+2022,Hors agglomération,unclassified,EDPM,bicycle,9,6,1,8,yes
+2022,Hors agglomération,unclassified,EDPM,motor_vehicle,9,6,0,9,
+2022,Hors agglomération,unclassified,EDPM,surface,9,6,2,7,asphalt
+2022,Hors agglomération,unclassified,EDPM,smoothness,9,6,0,9,
+2022,Hors agglomération,unclassified,EDPM,cycleway,9,6,1,8,no
+2022,Hors agglomération,unclassified,EDPM,cycleway:left,9,6,0,9,
+2022,Hors agglomération,unclassified,EDPM,cycleway:right,9,6,0,9,
+2022,Hors agglomération,unclassified,EDPM,maxspeed,9,6,1,8,50
+2022,Hors agglomération,unclassified,EDPM,oneway,9,6,2,7,no | yes
+2022,Hors agglomération,unclassified,EDPM,name,9,6,7,2,Rue Saint-Jean | Rue Michel Servet | Rue Pierre Carduner | Chemin du Moulin du Porteau | Route de la Pichardie
+2023,En agglomération,cycleway,CYCLO,highway,29,11,29,0,cycleway
+2023,En agglomération,cycleway,CYCLO,access,29,11,0,29,
+2023,En agglomération,cycleway,CYCLO,bicycle,29,11,5,24,designated
+2023,En agglomération,cycleway,CYCLO,motor_vehicle,29,11,0,29,
+2023,En agglomération,cycleway,CYCLO,surface,29,11,18,11,asphalt | paved | concrete
+2023,En agglomération,cycleway,CYCLO,smoothness,29,11,1,28,good
+2023,En agglomération,cycleway,CYCLO,cycleway,29,11,4,25,sidewalk | crossing | on_street
+2023,En agglomération,cycleway,CYCLO,cycleway:left,29,11,0,29,
+2023,En agglomération,cycleway,CYCLO,cycleway:right,29,11,0,29,
+2023,En agglomération,cycleway,CYCLO,maxspeed,29,11,0,29,
+2023,En agglomération,cycleway,CYCLO,oneway,29,11,17,12,yes | no
+2023,En agglomération,cycleway,CYCLO,name,29,11,6,23,Avenue de Neuilly | Esplanade Saint-Louis | Boulevard de la République | Boulevard Michelet | Avenue Gambetta
+2023,En agglomération,cycleway,EDPM,highway,51,13,51,0,cycleway
+2023,En agglomération,cycleway,EDPM,access,51,13,2,49,no
+2023,En agglomération,cycleway,EDPM,bicycle,51,13,7,44,yes | designated
+2023,En agglomération,cycleway,EDPM,motor_vehicle,51,13,4,47,no | permit | bus
+2023,En agglomération,cycleway,EDPM,surface,51,13,30,21,asphalt | concrete | compacted
+2023,En agglomération,cycleway,EDPM,smoothness,51,13,8,43,good | excellent
+2023,En agglomération,cycleway,EDPM,cycleway,51,13,9,42,on_street | sidewalk | share_busway
+2023,En agglomération,cycleway,EDPM,cycleway:left,51,13,0,51,
+2023,En agglomération,cycleway,EDPM,cycleway:right,51,13,0,51,
+2023,En agglomération,cycleway,EDPM,maxspeed,51,13,0,51,
+2023,En agglomération,cycleway,EDPM,oneway,51,13,30,21,yes | no
+2023,En agglomération,cycleway,EDPM,name,51,13,20,31,Boulevard Barbès | Rue Camille Desmoulins | Rue de Turbigo | La Canebière | Route de Lyon
+2023,En agglomération,cycleway,VAE,highway,22,11,22,0,cycleway
+2023,En agglomération,cycleway,VAE,access,22,11,1,21,no
+2023,En agglomération,cycleway,VAE,bicycle,22,11,3,19,designated
+2023,En agglomération,cycleway,VAE,motor_vehicle,22,11,1,21,no
+2023,En agglomération,cycleway,VAE,surface,22,11,10,12,asphalt | sett
+2023,En agglomération,cycleway,VAE,smoothness,22,11,2,20,good | excellent
+2023,En agglomération,cycleway,VAE,cycleway,22,11,4,18,sidewalk | on_street
+2023,En agglomération,cycleway,VAE,cycleway:left,22,11,0,22,
+2023,En agglomération,cycleway,VAE,cycleway:right,22,11,0,22,
+2023,En agglomération,cycleway,VAE,maxspeed,22,11,2,20,30
+2023,En agglomération,cycleway,VAE,oneway,22,11,8,14,yes | no
+2023,En agglomération,cycleway,VAE,name,22,11,7,15,Boulevard de Magenta | Quai Jean Charcot | Piste Maurice Garin | Rue de Rivoli | Avenue des Champs-Élysées
+2023,En agglomération,cycleway,VELO,highway,123,20,123,0,cycleway
+2023,En agglomération,cycleway,VELO,access,123,20,3,120,no
+2023,En agglomération,cycleway,VELO,bicycle,123,20,28,95,designated | yes
+2023,En agglomération,cycleway,VELO,motor_vehicle,123,20,4,119,no
+2023,En agglomération,cycleway,VELO,surface,123,20,84,39,asphalt | concrete | paving_stones | compacted
+2023,En agglomération,cycleway,VELO,smoothness,123,20,10,113,good | excellent
+2023,En agglomération,cycleway,VELO,cycleway,123,20,25,98,on_street | crossing | sidewalk | yes
+2023,En agglomération,cycleway,VELO,cycleway:left,123,20,0,123,
+2023,En agglomération,cycleway,VELO,cycleway:right,123,20,0,123,
+2023,En agglomération,cycleway,VELO,maxspeed,123,20,1,122,50
+2023,En agglomération,cycleway,VELO,oneway,123,20,69,54,yes | no | -1
+2023,En agglomération,cycleway,VELO,name,123,20,44,79,Boulevard de la Villette | Rue de Vaugirard | Rue Vercingétorix | Voie Verte des Viennes | Rue Saint-Antoine
+2023,Hors agglomération,cycleway,CYCLO,highway,2,2,2,0,cycleway
+2023,Hors agglomération,cycleway,CYCLO,access,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,bicycle,2,2,1,1,designated
+2023,Hors agglomération,cycleway,CYCLO,motor_vehicle,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,surface,2,2,2,0,asphalt
+2023,Hors agglomération,cycleway,CYCLO,smoothness,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,cycleway,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,cycleway:left,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,cycleway:right,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,maxspeed,2,2,0,2,
+2023,Hors agglomération,cycleway,CYCLO,oneway,2,2,1,1,no
+2023,Hors agglomération,cycleway,CYCLO,name,2,2,0,2,
+2023,Hors agglomération,cycleway,EDPM,highway,1,1,1,0,cycleway
+2023,Hors agglomération,cycleway,EDPM,access,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,bicycle,1,1,1,0,designated
+2023,Hors agglomération,cycleway,EDPM,motor_vehicle,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,surface,1,1,1,0,asphalt
+2023,Hors agglomération,cycleway,EDPM,smoothness,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,cycleway,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,cycleway:left,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,cycleway:right,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,maxspeed,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,oneway,1,1,0,1,
+2023,Hors agglomération,cycleway,EDPM,name,1,1,0,1,
+2023,Hors agglomération,cycleway,VAE,highway,2,2,2,0,cycleway
+2023,Hors agglomération,cycleway,VAE,access,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,bicycle,2,2,1,1,yes
+2023,Hors agglomération,cycleway,VAE,motor_vehicle,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,surface,2,2,1,1,asphalt
+2023,Hors agglomération,cycleway,VAE,smoothness,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,cycleway,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,cycleway:left,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,cycleway:right,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,maxspeed,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,oneway,2,2,0,2,
+2023,Hors agglomération,cycleway,VAE,name,2,2,0,2,
+2023,Hors agglomération,cycleway,VELO,highway,5,5,5,0,cycleway
+2023,Hors agglomération,cycleway,VELO,access,5,5,0,5,
+2023,Hors agglomération,cycleway,VELO,bicycle,5,5,1,4,designated
+2023,Hors agglomération,cycleway,VELO,motor_vehicle,5,5,1,4,no
+2023,Hors agglomération,cycleway,VELO,surface,5,5,4,1,asphalt | concrete
+2023,Hors agglomération,cycleway,VELO,smoothness,5,5,0,5,
+2023,Hors agglomération,cycleway,VELO,cycleway,5,5,0,5,
+2023,Hors agglomération,cycleway,VELO,cycleway:left,5,5,0,5,
+2023,Hors agglomération,cycleway,VELO,cycleway:right,5,5,0,5,
+2023,Hors agglomération,cycleway,VELO,maxspeed,5,5,0,5,
+2023,Hors agglomération,cycleway,VELO,oneway,5,5,3,2,yes | no
+2023,Hors agglomération,cycleway,VELO,name,5,5,1,4,Voie Verte des Hautes-Vosges
+2023,Hors agglomération,primary,EDPM,highway,21,13,21,0,primary
+2023,Hors agglomération,primary,EDPM,access,21,13,0,21,
+2023,Hors agglomération,primary,EDPM,bicycle,21,13,0,21,
+2023,Hors agglomération,primary,EDPM,motor_vehicle,21,13,0,21,
+2023,Hors agglomération,primary,EDPM,surface,21,13,14,7,asphalt
+2023,Hors agglomération,primary,EDPM,smoothness,21,13,0,21,
+2023,Hors agglomération,primary,EDPM,cycleway,21,13,0,21,
+2023,Hors agglomération,primary,EDPM,cycleway:left,21,13,0,21,
+2023,Hors agglomération,primary,EDPM,cycleway:right,21,13,2,19,no | lane
+2023,Hors agglomération,primary,EDPM,maxspeed,21,13,17,4,90 | 80 | 50 | 70 | 110
+2023,Hors agglomération,primary,EDPM,oneway,21,13,12,9,yes | no
+2023,Hors agglomération,primary,EDPM,name,21,13,9,12,Route de Draguignan | Chemin de Rabeyrolles | Route de la Chapelle | Chaussée du 24e Territorial | Route du Bord de Mer
+2023,Hors agglomération,residential,EDPM,highway,2,2,2,0,residential
+2023,Hors agglomération,residential,EDPM,access,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,bicycle,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,motor_vehicle,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,surface,2,2,1,1,asphalt
+2023,Hors agglomération,residential,EDPM,smoothness,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,cycleway,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,cycleway:left,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,cycleway:right,2,2,0,2,
+2023,Hors agglomération,residential,EDPM,maxspeed,2,2,1,1,50
+2023,Hors agglomération,residential,EDPM,oneway,2,2,1,1,yes
+2023,Hors agglomération,residential,EDPM,name,2,2,2,0,Rue Gauthier | Rue des Gouronnières
+2023,Hors agglomération,secondary,EDPM,highway,27,14,27,0,secondary
+2023,Hors agglomération,secondary,EDPM,access,27,14,0,27,
+2023,Hors agglomération,secondary,EDPM,bicycle,27,14,0,27,
+2023,Hors agglomération,secondary,EDPM,motor_vehicle,27,14,0,27,
+2023,Hors agglomération,secondary,EDPM,surface,27,14,15,12,asphalt
+2023,Hors agglomération,secondary,EDPM,smoothness,27,14,0,27,
+2023,Hors agglomération,secondary,EDPM,cycleway,27,14,2,25,separate | lane
+2023,Hors agglomération,secondary,EDPM,cycleway:left,27,14,0,27,
+2023,Hors agglomération,secondary,EDPM,cycleway:right,27,14,2,25,no | lane
+2023,Hors agglomération,secondary,EDPM,maxspeed,27,14,13,14,80 | 50 | 70 | 90 | 30
+2023,Hors agglomération,secondary,EDPM,oneway,27,14,13,14,no | yes
+2023,Hors agglomération,secondary,EDPM,name,27,14,16,11,Rue de Bourdon | Rue des Potiers | Avenue Chevreul | Rond-Point des Médaillés Militaires | Route de Saint-André
+2023,Hors agglomération,service,EDPM,highway,1,1,1,0,service
+2023,Hors agglomération,service,EDPM,access,1,1,0,1,
+2023,Hors agglomération,service,EDPM,bicycle,1,1,0,1,
+2023,Hors agglomération,service,EDPM,motor_vehicle,1,1,0,1,
+2023,Hors agglomération,service,EDPM,surface,1,1,0,1,
+2023,Hors agglomération,service,EDPM,smoothness,1,1,0,1,
+2023,Hors agglomération,service,EDPM,cycleway,1,1,0,1,
+2023,Hors agglomération,service,EDPM,cycleway:left,1,1,0,1,
+2023,Hors agglomération,service,EDPM,cycleway:right,1,1,0,1,
+2023,Hors agglomération,service,EDPM,maxspeed,1,1,0,1,
+2023,Hors agglomération,service,EDPM,oneway,1,1,1,0,no
+2023,Hors agglomération,service,EDPM,name,1,1,0,1,
+2023,Hors agglomération,tertiary,EDPM,highway,17,14,17,0,tertiary
+2023,Hors agglomération,tertiary,EDPM,access,17,14,0,17,
+2023,Hors agglomération,tertiary,EDPM,bicycle,17,14,1,16,yes
+2023,Hors agglomération,tertiary,EDPM,motor_vehicle,17,14,0,17,
+2023,Hors agglomération,tertiary,EDPM,surface,17,14,7,10,asphalt
+2023,Hors agglomération,tertiary,EDPM,smoothness,17,14,0,17,
+2023,Hors agglomération,tertiary,EDPM,cycleway,17,14,0,17,
+2023,Hors agglomération,tertiary,EDPM,cycleway:left,17,14,0,17,
+2023,Hors agglomération,tertiary,EDPM,cycleway:right,17,14,0,17,
+2023,Hors agglomération,tertiary,EDPM,maxspeed,17,14,5,12,80 | 30 | 50 | 70
+2023,Hors agglomération,tertiary,EDPM,oneway,17,14,3,14,no
+2023,Hors agglomération,tertiary,EDPM,name,17,14,12,5,Rue de Nihault | Route de Poyartin | Rue de la Mauvendière | Rue Saint-Honoré | Avenue du Général de Gaulle
+2023,Hors agglomération,track,EDPM,highway,2,2,2,0,track
+2023,Hors agglomération,track,EDPM,access,2,2,1,1,private
+2023,Hors agglomération,track,EDPM,bicycle,2,2,0,2,
+2023,Hors agglomération,track,EDPM,motor_vehicle,2,2,0,2,
+2023,Hors agglomération,track,EDPM,surface,2,2,1,1,asphalt
+2023,Hors agglomération,track,EDPM,smoothness,2,2,0,2,
+2023,Hors agglomération,track,EDPM,cycleway,2,2,0,2,
+2023,Hors agglomération,track,EDPM,cycleway:left,2,2,0,2,
+2023,Hors agglomération,track,EDPM,cycleway:right,2,2,0,2,
+2023,Hors agglomération,track,EDPM,maxspeed,2,2,0,2,
+2023,Hors agglomération,track,EDPM,oneway,2,2,0,2,
+2023,Hors agglomération,track,EDPM,name,2,2,1,1,Chemin de la Poupetterie
+2023,Hors agglomération,trunk,EDPM,highway,3,2,3,0,trunk
+2023,Hors agglomération,trunk,EDPM,access,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,bicycle,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,motor_vehicle,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,surface,3,2,2,1,asphalt
+2023,Hors agglomération,trunk,EDPM,smoothness,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,cycleway,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,cycleway:left,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,cycleway:right,3,2,0,3,
+2023,Hors agglomération,trunk,EDPM,maxspeed,3,2,3,0,110
+2023,Hors agglomération,trunk,EDPM,oneway,3,2,3,0,yes
+2023,Hors agglomération,trunk,EDPM,name,3,2,1,2,La Francilienne
+2023,Hors agglomération,unclassified,EDPM,highway,5,5,5,0,unclassified
+2023,Hors agglomération,unclassified,EDPM,access,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,bicycle,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,motor_vehicle,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,surface,5,5,1,4,asphalt
+2023,Hors agglomération,unclassified,EDPM,smoothness,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,cycleway,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,cycleway:left,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,cycleway:right,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,maxspeed,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,oneway,5,5,0,5,
+2023,Hors agglomération,unclassified,EDPM,name,5,5,5,0,Chemin du Loup | Route des Nourrats | Rue des Pyrénées | Chemin des Moulières | Rue Pierre Nougaro
+2024,En agglomération,cycleway,CYCLO,highway,33,10,33,0,cycleway
+2024,En agglomération,cycleway,CYCLO,access,33,10,0,33,
+2024,En agglomération,cycleway,CYCLO,bicycle,33,10,3,30,designated | yes
+2024,En agglomération,cycleway,CYCLO,motor_vehicle,33,10,1,32,no
+2024,En agglomération,cycleway,CYCLO,surface,33,10,25,8,asphalt | sett
+2024,En agglomération,cycleway,CYCLO,smoothness,33,10,4,29,good
+2024,En agglomération,cycleway,CYCLO,cycleway,33,10,13,20,on_street | sidewalk | crossing
+2024,En agglomération,cycleway,CYCLO,cycleway:left,33,10,0,33,
+2024,En agglomération,cycleway,CYCLO,cycleway:right,33,10,0,33,
+2024,En agglomération,cycleway,CYCLO,maxspeed,33,10,0,33,
+2024,En agglomération,cycleway,CYCLO,oneway,33,10,20,13,yes | no
+2024,En agglomération,cycleway,CYCLO,name,33,10,13,20,Boulevard de Magenta | Boulevard Morland | Quai de l'Hôtel de Ville | Boulevard de Bonne Nouvelle | Avenue Corentin Cariou
+2024,En agglomération,cycleway,EDPM,highway,76,17,76,0,cycleway
+2024,En agglomération,cycleway,EDPM,access,76,17,1,75,no
+2024,En agglomération,cycleway,EDPM,bicycle,76,17,18,58,designated | yes
+2024,En agglomération,cycleway,EDPM,motor_vehicle,76,17,6,70,no
+2024,En agglomération,cycleway,EDPM,surface,76,17,55,21,asphalt | concrete | fine_gravel
+2024,En agglomération,cycleway,EDPM,smoothness,76,17,12,64,good | intermediate | excellent
+2024,En agglomération,cycleway,EDPM,cycleway,76,17,13,63,sidewalk | crossing | on_street | segregated
+2024,En agglomération,cycleway,EDPM,cycleway:left,76,17,0,76,
+2024,En agglomération,cycleway,EDPM,cycleway:right,76,17,0,76,
+2024,En agglomération,cycleway,EDPM,maxspeed,76,17,1,75,30
+2024,En agglomération,cycleway,EDPM,oneway,76,17,43,33,yes | no
+2024,En agglomération,cycleway,EDPM,name,76,17,20,56,Avenue Victor Hugo | Boulevard de Magenta | Boulevard Morland | Boulevard de la Chapelle | Avenue Jean Jaurès
+2024,En agglomération,cycleway,VAE,highway,22,9,22,0,cycleway
+2024,En agglomération,cycleway,VAE,access,22,9,0,22,
+2024,En agglomération,cycleway,VAE,bicycle,22,9,6,16,designated
+2024,En agglomération,cycleway,VAE,motor_vehicle,22,9,1,21,no
+2024,En agglomération,cycleway,VAE,surface,22,9,18,4,asphalt | concrete
+2024,En agglomération,cycleway,VAE,smoothness,22,9,6,16,good | excellent
+2024,En agglomération,cycleway,VAE,cycleway,22,9,9,13,sidewalk | on_street | crossing | shared_lane
+2024,En agglomération,cycleway,VAE,cycleway:left,22,9,0,22,
+2024,En agglomération,cycleway,VAE,cycleway:right,22,9,0,22,
+2024,En agglomération,cycleway,VAE,maxspeed,22,9,1,21,30
+2024,En agglomération,cycleway,VAE,oneway,22,9,11,11,no | yes
+2024,En agglomération,cycleway,VAE,name,22,9,10,12,Avenue de la Porte de la Villette | Pont au Change | Boulevard de Tournai | Avenue Jean Jaurès | Boulevard de l'Ouest
+2024,En agglomération,cycleway,VELO,highway,111,17,111,0,cycleway
+2024,En agglomération,cycleway,VELO,access,111,17,3,108,yes | no
+2024,En agglomération,cycleway,VELO,bicycle,111,17,23,88,designated | yes
+2024,En agglomération,cycleway,VELO,motor_vehicle,111,17,8,103,no
+2024,En agglomération,cycleway,VELO,surface,111,17,86,25,asphalt | paving_stones | concrete | sett | concrete:plates
+2024,En agglomération,cycleway,VELO,smoothness,111,17,24,87,good | excellent
+2024,En agglomération,cycleway,VELO,cycleway,111,17,38,73,on_street | sidewalk | crossing | segregated
+2024,En agglomération,cycleway,VELO,cycleway:left,111,17,0,111,
+2024,En agglomération,cycleway,VELO,cycleway:right,111,17,0,111,
+2024,En agglomération,cycleway,VELO,maxspeed,111,17,1,110,30
+2024,En agglomération,cycleway,VELO,oneway,111,17,62,49,yes | no
+2024,En agglomération,cycleway,VELO,name,111,17,49,62,Boulevard de Sébastopol | Boulevard de la Villette | Rue de Rivoli | Avenue du Rhin | Boulevard Brune
+2024,Hors agglomération,cycleway,CYCLO,highway,4,4,4,0,cycleway
+2024,Hors agglomération,cycleway,CYCLO,access,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,bicycle,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,motor_vehicle,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,surface,4,4,3,1,asphalt | compacted
+2024,Hors agglomération,cycleway,CYCLO,smoothness,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,cycleway,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,cycleway:left,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,cycleway:right,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,maxspeed,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,oneway,4,4,0,4,
+2024,Hors agglomération,cycleway,CYCLO,name,4,4,1,3,La Diligence - Cannebas
+2024,Hors agglomération,cycleway,EDPM,highway,2,2,2,0,cycleway
+2024,Hors agglomération,cycleway,EDPM,access,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,bicycle,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,motor_vehicle,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,surface,2,2,2,0,asphalt
+2024,Hors agglomération,cycleway,EDPM,smoothness,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,cycleway,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,cycleway:left,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,cycleway:right,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,maxspeed,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,oneway,2,2,0,2,
+2024,Hors agglomération,cycleway,EDPM,name,2,2,1,1,Piste Cyclable de la Roche-sur-Yon à Coëx
+2024,Hors agglomération,cycleway,VAE,highway,1,1,1,0,cycleway
+2024,Hors agglomération,cycleway,VAE,access,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,bicycle,1,1,1,0,designated
+2024,Hors agglomération,cycleway,VAE,motor_vehicle,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,surface,1,1,1,0,asphalt
+2024,Hors agglomération,cycleway,VAE,smoothness,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,cycleway,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,cycleway:left,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,cycleway:right,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,maxspeed,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,oneway,1,1,0,1,
+2024,Hors agglomération,cycleway,VAE,name,1,1,0,1,
+2024,Hors agglomération,cycleway,VELO,highway,5,5,5,0,cycleway
+2024,Hors agglomération,cycleway,VELO,access,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,bicycle,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,motor_vehicle,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,surface,5,5,4,1,asphalt
+2024,Hors agglomération,cycleway,VELO,smoothness,5,5,1,4,excellent
+2024,Hors agglomération,cycleway,VELO,cycleway,5,5,1,4,crossing
+2024,Hors agglomération,cycleway,VELO,cycleway:left,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,cycleway:right,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,maxspeed,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,oneway,5,5,0,5,
+2024,Hors agglomération,cycleway,VELO,name,5,5,0,5,
+2024,Hors agglomération,motorway,EDPM,highway,2,2,2,0,motorway
+2024,Hors agglomération,motorway,EDPM,access,2,2,0,2,
+2024,Hors agglomération,motorway,EDPM,bicycle,2,2,0,2,
+2024,Hors agglomération,motorway,EDPM,motor_vehicle,2,2,0,2,
+2024,Hors agglomération,motorway,EDPM,surface,2,2,2,0,asphalt
+2024,Hors agglomération,motorway,EDPM,smoothness,2,2,1,1,good
+2024,Hors agglomération,motorway,EDPM,cycleway,2,2,0,2,
+2024,Hors agglomération,motorway,EDPM,cycleway:left,2,2,0,2,
+2024,Hors agglomération,motorway,EDPM,cycleway:right,2,2,0,2,
+2024,Hors agglomération,motorway,EDPM,maxspeed,2,2,2,0,110 | 70
+2024,Hors agglomération,motorway,EDPM,oneway,2,2,2,0,yes
+2024,Hors agglomération,motorway,EDPM,name,2,2,1,1,Autoroute de l’Est
+2024,Hors agglomération,primary,EDPM,highway,30,12,30,0,primary
+2024,Hors agglomération,primary,EDPM,access,30,12,1,29,yes
+2024,Hors agglomération,primary,EDPM,bicycle,30,12,6,24,no | yes | use_sidepath
+2024,Hors agglomération,primary,EDPM,motor_vehicle,30,12,0,30,
+2024,Hors agglomération,primary,EDPM,surface,30,12,24,6,asphalt
+2024,Hors agglomération,primary,EDPM,smoothness,30,12,6,24,excellent | good
+2024,Hors agglomération,primary,EDPM,cycleway,30,12,4,26,lane | shoulder
+2024,Hors agglomération,primary,EDPM,cycleway:left,30,12,1,29,lane
+2024,Hors agglomération,primary,EDPM,cycleway:right,30,12,5,25,lane | no
+2024,Hors agglomération,primary,EDPM,maxspeed,30,12,24,6,70 | 90 | 80 | 50 | 30
+2024,Hors agglomération,primary,EDPM,oneway,30,12,17,13,yes | no
+2024,Hors agglomération,primary,EDPM,name,30,12,22,8,Boulevard Jean Jaurès | Route de Saint-Marcellin | Route d'Aunay | Route du Cœur Saignant | Route de Valence
+2024,Hors agglomération,residential,EDPM,highway,10,8,10,0,residential
+2024,Hors agglomération,residential,EDPM,access,10,8,0,10,
+2024,Hors agglomération,residential,EDPM,bicycle,10,8,0,10,
+2024,Hors agglomération,residential,EDPM,motor_vehicle,10,8,1,9,yes
+2024,Hors agglomération,residential,EDPM,surface,10,8,7,3,asphalt | paved
+2024,Hors agglomération,residential,EDPM,smoothness,10,8,0,10,
+2024,Hors agglomération,residential,EDPM,cycleway,10,8,0,10,
+2024,Hors agglomération,residential,EDPM,cycleway:left,10,8,1,9,opposite_lane
+2024,Hors agglomération,residential,EDPM,cycleway:right,10,8,0,10,
+2024,Hors agglomération,residential,EDPM,maxspeed,10,8,2,8,30 | 50
+2024,Hors agglomération,residential,EDPM,oneway,10,8,3,7,yes | no
+2024,Hors agglomération,residential,EDPM,name,10,8,8,2,Rue Boisnet | Avenue du Colonel Arnaud Beltrame | Chemin du Colombier | Rue Joseph Richard | Rue Saint-Just
+2024,Hors agglomération,secondary,EDPM,highway,30,17,30,0,secondary
+2024,Hors agglomération,secondary,EDPM,access,30,17,0,30,
+2024,Hors agglomération,secondary,EDPM,bicycle,30,17,1,29,yes
+2024,Hors agglomération,secondary,EDPM,motor_vehicle,30,17,0,30,
+2024,Hors agglomération,secondary,EDPM,surface,30,17,21,9,asphalt | paved
+2024,Hors agglomération,secondary,EDPM,smoothness,30,17,1,29,good
+2024,Hors agglomération,secondary,EDPM,cycleway,30,17,1,29,no
+2024,Hors agglomération,secondary,EDPM,cycleway:left,30,17,0,30,
+2024,Hors agglomération,secondary,EDPM,cycleway:right,30,17,1,29,lane
+2024,Hors agglomération,secondary,EDPM,maxspeed,30,17,11,19,70 | 50 | 80 | 30
+2024,Hors agglomération,secondary,EDPM,oneway,30,17,4,26,no | yes
+2024,Hors agglomération,secondary,EDPM,name,30,17,19,11,Route d'Herbaville | Route de Cilaos | Route de Layrac | Route de Montpellier | Chemin Long
+2024,Hors agglomération,service,EDPM,highway,5,5,5,0,service
+2024,Hors agglomération,service,EDPM,access,5,5,1,4,no
+2024,Hors agglomération,service,EDPM,bicycle,5,5,0,5,
+2024,Hors agglomération,service,EDPM,motor_vehicle,5,5,0,5,
+2024,Hors agglomération,service,EDPM,surface,5,5,0,5,
+2024,Hors agglomération,service,EDPM,smoothness,5,5,0,5,
+2024,Hors agglomération,service,EDPM,cycleway,5,5,0,5,
+2024,Hors agglomération,service,EDPM,cycleway:left,5,5,0,5,
+2024,Hors agglomération,service,EDPM,cycleway:right,5,5,0,5,
+2024,Hors agglomération,service,EDPM,maxspeed,5,5,0,5,
+2024,Hors agglomération,service,EDPM,oneway,5,5,0,5,
+2024,Hors agglomération,service,EDPM,name,5,5,0,5,
+2024,Hors agglomération,tertiary,EDPM,highway,17,13,17,0,tertiary
+2024,Hors agglomération,tertiary,EDPM,access,17,13,0,17,
+2024,Hors agglomération,tertiary,EDPM,bicycle,17,13,0,17,
+2024,Hors agglomération,tertiary,EDPM,motor_vehicle,17,13,0,17,
+2024,Hors agglomération,tertiary,EDPM,surface,17,13,8,9,asphalt
+2024,Hors agglomération,tertiary,EDPM,smoothness,17,13,1,16,good
+2024,Hors agglomération,tertiary,EDPM,cycleway,17,13,2,15,lane | no
+2024,Hors agglomération,tertiary,EDPM,cycleway:left,17,13,0,17,
+2024,Hors agglomération,tertiary,EDPM,cycleway:right,17,13,0,17,
+2024,Hors agglomération,tertiary,EDPM,maxspeed,17,13,5,12,50 | 30 | 70
+2024,Hors agglomération,tertiary,EDPM,oneway,17,13,3,14,yes | no
+2024,Hors agglomération,tertiary,EDPM,name,17,13,12,5,Route de Wittelsheim | Chemin Saint-Bernard | Route de Ponty | Rue Raoul Tanon de Pélissier | Les Marronniers
+2024,Hors agglomération,track,EDPM,highway,3,3,3,0,track
+2024,Hors agglomération,track,EDPM,access,3,3,0,3,
+2024,Hors agglomération,track,EDPM,bicycle,3,3,1,2,yes
+2024,Hors agglomération,track,EDPM,motor_vehicle,3,3,0,3,
+2024,Hors agglomération,track,EDPM,surface,3,3,1,2,ground
+2024,Hors agglomération,track,EDPM,smoothness,3,3,0,3,
+2024,Hors agglomération,track,EDPM,cycleway,3,3,0,3,
+2024,Hors agglomération,track,EDPM,cycleway:left,3,3,0,3,
+2024,Hors agglomération,track,EDPM,cycleway:right,3,3,0,3,
+2024,Hors agglomération,track,EDPM,maxspeed,3,3,0,3,
+2024,Hors agglomération,track,EDPM,oneway,3,3,0,3,
+2024,Hors agglomération,track,EDPM,name,3,3,2,1,Promenade Michel Combe | Chemin de la Carrière des Potiers
+2024,Hors agglomération,trunk,EDPM,highway,3,3,3,0,trunk
+2024,Hors agglomération,trunk,EDPM,access,3,3,0,3,
+2024,Hors agglomération,trunk,EDPM,bicycle,3,3,2,1,no | yes
+2024,Hors agglomération,trunk,EDPM,motor_vehicle,3,3,0,3,
+2024,Hors agglomération,trunk,EDPM,surface,3,3,3,0,asphalt
+2024,Hors agglomération,trunk,EDPM,smoothness,3,3,0,3,
+2024,Hors agglomération,trunk,EDPM,cycleway,3,3,0,3,
+2024,Hors agglomération,trunk,EDPM,cycleway:left,3,3,0,3,
+2024,Hors agglomération,trunk,EDPM,cycleway:right,3,3,0,3,
+2024,Hors agglomération,trunk,EDPM,maxspeed,3,3,3,0,70 | 80 | 90
+2024,Hors agglomération,trunk,EDPM,oneway,3,3,2,1,yes
+2024,Hors agglomération,trunk,EDPM,name,3,3,2,1,Tunnel de Neuilly | Rocade de Pointe-à-Pitre
+2024,Hors agglomération,unclassified,EDPM,highway,15,12,15,0,unclassified
+2024,Hors agglomération,unclassified,EDPM,access,15,12,0,15,
+2024,Hors agglomération,unclassified,EDPM,bicycle,15,12,1,14,yes
+2024,Hors agglomération,unclassified,EDPM,motor_vehicle,15,12,0,15,
+2024,Hors agglomération,unclassified,EDPM,surface,15,12,5,10,asphalt | paving_stones
+2024,Hors agglomération,unclassified,EDPM,smoothness,15,12,1,14,excellent
+2024,Hors agglomération,unclassified,EDPM,cycleway,15,12,1,14,lane
+2024,Hors agglomération,unclassified,EDPM,cycleway:left,15,12,0,15,
+2024,Hors agglomération,unclassified,EDPM,cycleway:right,15,12,0,15,
+2024,Hors agglomération,unclassified,EDPM,maxspeed,15,12,2,13,40 | 30
+2024,Hors agglomération,unclassified,EDPM,oneway,15,12,2,13,no | yes
+2024,Hors agglomération,unclassified,EDPM,name,15,12,8,7,Pont-passerelle | Chemin du Château d'Eau | Schlettsweg | Chemin du Cou | Route des Ballons

@@ -1,0 +1,298 @@
+annee;mode;zone;type_voie;categorie_accident;accidents;accidents_sans_usager_du_mode_documente;accidents_avec_indemnes;part_avec_indemnes_pct;personnes_indemnes;accidents_avec_blesses_legers;part_avec_blesses_legers_pct;personnes_blesses_legers;accidents_avec_hospitalises;part_avec_hospitalises_pct;personnes_hospitalises;accidents_avec_tues;part_avec_tues_pct;personnes_tues;accidents_avec_gravite_inconnue;part_avec_gravite_inconnue_pct;personnes_gravite_inconnue
+2021;CYCLO;Hors agglomération;Non apparié;Autre véhicule motorisé seulement;5;0;0;0.0;0;0;0.0;0;5;100.0;6;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;Non apparié;Solo (sans piéton);4;0;1;25.0;1;0;0.0;0;4;100.0;4;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;cycleway;Autre véhicule du même catv seulement;1;0;0;0.0;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;cycleway;Autre véhicule motorisé seulement;2;0;0;0.0;0;2;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;cycleway;Solo (sans piéton);2;0;0;0.0;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;living_street;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;motorway;Autre véhicule motorisé seulement;9;0;0;0.0;0;6;66.67;6;2;22.22;2;2;22.22;2;0;0.0;0
+2021;CYCLO;Hors agglomération;motorway;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;motorway;Véhicule indéterminé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Autre véhicule du même catv seulement;2;0;1;50.0;2;1;50.0;3;1;50.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Autre véhicule motorisé seulement;124;0;6;4.84;6;41;33.06;48;71;57.26;72;15;12.1;15;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Autre véhicule non motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Combinaison de tiers;2;0;2;100.0;2;1;50.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Piéton seul;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Solo (sans piéton);33;0;1;3.03;1;12;36.36;12;21;63.64;22;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;primary;Véhicule indéterminé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;residential;Autre véhicule motorisé seulement;22;0;1;4.55;1;12;54.55;13;9;40.91;9;1;4.55;1;0;0.0;0
+2021;CYCLO;Hors agglomération;residential;Piéton seul;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;residential;Solo (sans piéton);8;0;0;0.0;0;6;75.0;7;3;37.5;3;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;residential;Véhicule indéterminé seulement;1;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;secondary;Autre véhicule du même catv seulement;2;0;1;50.0;1;2;100.0;2;1;50.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;secondary;Autre véhicule motorisé seulement;133;0;0;0.0;0;40;30.08;44;89;66.92;90;9;6.77;9;0;0.0;0
+2021;CYCLO;Hors agglomération;secondary;Autre véhicule non motorisé seulement;3;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;secondary;Piéton seul;2;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;secondary;Solo (sans piéton);67;0;2;2.99;2;30;44.78;31;39;58.21;41;3;4.48;3;0;0.0;0
+2021;CYCLO;Hors agglomération;service;Autre véhicule motorisé seulement;12;0;0;0.0;0;7;58.33;8;5;41.67;5;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;service;Piéton seul;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;service;Solo (sans piéton);2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Autre véhicule du même catv seulement;7;0;4;57.14;6;3;42.86;5;5;71.43;5;1;14.29;1;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Autre véhicule motorisé seulement;115;0;5;4.35;5;38;33.04;40;75;65.22;81;3;2.61;3;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Autre véhicule non motorisé seulement;2;0;0;0.0;0;2;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Combinaison de tiers;1;0;1;100.0;1;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Piéton seul;2;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Solo (sans piéton);83;0;6;7.23;6;36;43.37;37;43;51.81;43;7;8.43;7;0;0.0;0
+2021;CYCLO;Hors agglomération;tertiary;Véhicule indéterminé seulement;1;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;track;Autre véhicule du même catv seulement;1;0;1;100.0;1;1;100.0;1;1;100.0;3;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;track;Autre véhicule motorisé seulement;9;0;0;0.0;0;2;22.22;2;7;77.78;7;1;11.11;1;0;0.0;0
+2021;CYCLO;Hors agglomération;track;Solo (sans piéton);13;0;2;15.38;2;5;38.46;6;6;46.15;6;2;15.38;2;0;0.0;0
+2021;CYCLO;Hors agglomération;trunk;Autre véhicule motorisé seulement;5;0;0;0.0;0;2;40.0;2;2;40.0;2;1;20.0;1;0;0.0;0
+2021;CYCLO;Hors agglomération;trunk;Combinaison de tiers;1;0;1;100.0;1;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;trunk;Solo (sans piéton);2;0;1;50.0;1;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Autre véhicule du même catv seulement;3;0;1;33.33;2;2;66.67;3;2;66.67;3;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Autre véhicule motorisé seulement;80;0;4;5.0;4;17;21.25;17;61;76.25;63;3;3.75;3;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Autre véhicule non motorisé seulement;4;0;1;25.0;1;3;75.0;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Combinaison de tiers;3;0;1;33.33;1;1;33.33;2;1;33.33;2;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Piéton seul;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Solo (sans piéton);49;0;6;12.24;6;14;28.57;15;35;71.43;36;2;4.08;2;0;0.0;0
+2021;CYCLO;Hors agglomération;unclassified;Véhicule indéterminé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;cycleway;Autre véhicule motorisé seulement;28;0;0;0.0;0;25;89.29;26;2;7.14;2;1;3.57;1;0;0.0;0
+2021;EDPM;En agglomération;cycleway;Autre véhicule non motorisé seulement;10;0;5;50.0;5;4;40.0;4;2;20.0;2;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;cycleway;Combinaison de tiers;1;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;cycleway;Piéton seul;8;0;7;87.5;7;1;12.5;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;cycleway;Solo (sans piéton);12;0;0;0.0;0;10;83.33;11;1;8.33;1;1;8.33;1;0;0.0;0
+2021;EDPM;En agglomération;cycleway;Véhicule indéterminé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;living_street;Autre véhicule motorisé seulement;11;0;3;27.27;3;10;90.91;10;1;9.09;1;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;living_street;Autre véhicule non motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;living_street;Piéton seul;3;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;living_street;Solo (sans piéton);2;0;0;0.0;0;1;50.0;2;1;50.0;1;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;motorway;Autre véhicule non motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;motorway;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;primary;Autre véhicule du même catv seulement;5;0;5;100.0;5;5;100.0;5;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;primary;Autre véhicule motorisé seulement;183;0;4;2.19;4;157;85.79;161;24;13.11;24;3;1.64;3;0;0.0;0
+2021;EDPM;En agglomération;primary;Autre véhicule non motorisé seulement;17;0;8;47.06;8;9;52.94;9;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;primary;Combinaison de tiers;4;0;1;25.0;1;3;75.0;5;0;0.0;0;1;25.0;1;0;0.0;0
+2021;EDPM;En agglomération;primary;Piéton seul;28;0;25;89.29;26;3;10.71;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;primary;Solo (sans piéton);38;0;1;2.63;1;30;78.95;31;8;21.05;8;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;residential;Autre véhicule du même catv seulement;1;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;residential;Autre véhicule motorisé seulement;336;0;20;5.95;20;284;84.52;296;46;13.69;46;2;0.6;2;0;0.0;0
+2021;EDPM;En agglomération;residential;Autre véhicule non motorisé seulement;7;0;3;42.86;3;4;57.14;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;residential;Combinaison de tiers;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;residential;Piéton seul;36;0;28;77.78;29;7;19.44;7;1;2.78;1;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;residential;Solo (sans piéton);46;0;3;6.52;3;31;67.39;32;11;23.91;11;4;8.7;4;0;0.0;0
+2021;EDPM;En agglomération;secondary;Autre véhicule du même catv seulement;2;0;0;0.0;0;2;100.0;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;secondary;Autre véhicule motorisé seulement;222;0;5;2.25;5;183;82.43;188;36;16.22;37;4;1.8;4;0;0.0;0
+2021;EDPM;En agglomération;secondary;Autre véhicule non motorisé seulement;11;0;4;36.36;4;7;63.64;7;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;secondary;Combinaison de tiers;3;0;0;0.0;0;3;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;secondary;Piéton seul;23;0;19;82.61;19;4;17.39;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;secondary;Solo (sans piéton);38;0;1;2.63;1;29;76.32;29;8;21.05;8;1;2.63;1;0;0.0;0
+2021;EDPM;En agglomération;service;Autre véhicule motorisé seulement;58;0;3;5.17;3;45;77.59;46;11;18.97;12;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;service;Autre véhicule non motorisé seulement;2;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;service;Piéton seul;8;0;7;87.5;9;2;25.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;service;Solo (sans piéton);14;0;1;7.14;1;10;71.43;11;3;21.43;3;1;7.14;1;0;0.0;0
+2021;EDPM;En agglomération;tertiary;Autre véhicule du même catv seulement;1;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;tertiary;Autre véhicule motorisé seulement;179;0;9;5.03;10;143;79.89;148;34;18.99;34;2;1.12;2;0;0.0;0
+2021;EDPM;En agglomération;tertiary;Autre véhicule non motorisé seulement;5;0;5;100.0;5;1;20.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;tertiary;Combinaison de tiers;1;0;0;0.0;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0
+2021;EDPM;En agglomération;tertiary;Piéton seul;14;0;11;78.57;12;3;21.43;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;tertiary;Solo (sans piéton);30;0;3;10.0;3;20;66.67;20;10;33.33;10;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;trunk;Autre véhicule motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;unclassified;Autre véhicule du même catv seulement;1;0;1;100.0;2;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;unclassified;Autre véhicule motorisé seulement;55;0;1;1.82;1;50;90.91;52;4;7.27;4;1;1.82;1;0;0.0;0
+2021;EDPM;En agglomération;unclassified;Piéton seul;3;0;3;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;unclassified;Solo (sans piéton);6;0;0;0.0;0;4;66.67;4;2;33.33;2;0;0.0;0;0;0.0;0
+2021;EDPM;En agglomération;unclassified;Véhicule indéterminé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;cycleway;Piéton seul;2;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;motorway;Autre véhicule motorisé seulement;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;motorway;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;primary;Autre véhicule motorisé seulement;9;0;0;0.0;0;5;55.56;5;3;33.33;3;1;11.11;1;0;0.0;0
+2021;EDPM;Hors agglomération;primary;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0
+2021;EDPM;Hors agglomération;residential;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;secondary;Autre véhicule motorisé seulement;4;0;0;0.0;0;1;25.0;1;3;75.0;3;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;secondary;Solo (sans piéton);2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;service;Autre véhicule motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;tertiary;Autre véhicule motorisé seulement;6;0;0;0.0;0;3;50.0;3;2;33.33;2;1;16.67;1;0;0.0;0
+2021;EDPM;Hors agglomération;tertiary;Solo (sans piéton);2;0;0;0.0;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;unclassified;Autre véhicule motorisé seulement;3;0;1;33.33;1;2;66.67;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;unclassified;Combinaison de tiers;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDPM;Hors agglomération;unclassified;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;cycleway;Autre véhicule motorisé seulement;4;0;0;0.0;0;4;100.0;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;cycleway;Piéton seul;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;cycleway;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;living_street;Autre véhicule du même catv seulement;1;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;motorway;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;primary;Autre véhicule motorisé seulement;26;0;2;7.69;2;21;80.77;21;4;15.38;4;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;primary;Autre véhicule non motorisé seulement;3;0;1;33.33;1;2;66.67;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;primary;Solo (sans piéton);4;0;0;0.0;0;3;75.0;3;1;25.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;primary;Véhicule indéterminé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;residential;Autre véhicule motorisé seulement;69;0;2;2.9;2;58;84.06;59;9;13.04;9;2;2.9;2;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;residential;Autre véhicule non motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;residential;Piéton seul;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;residential;Solo (sans piéton);7;0;0;0.0;0;5;71.43;5;2;28.57;2;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;residential;Véhicule indéterminé seulement;2;0;0;0.0;0;2;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;secondary;Autre véhicule motorisé seulement;35;0;3;8.57;3;28;80.0;29;5;14.29;5;1;2.86;1;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;secondary;Autre véhicule non motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;secondary;Combinaison de tiers;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;secondary;Piéton seul;4;0;3;75.0;3;1;25.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;secondary;Solo (sans piéton);2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;secondary;Véhicule indéterminé seulement;1;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;service;Autre véhicule du même catv seulement;1;0;0;0.0;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;service;Autre véhicule motorisé seulement;11;0;0;0.0;0;10;90.91;11;1;9.09;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;service;Autre véhicule non motorisé seulement;2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;service;Solo (sans piéton);3;0;0;0.0;0;3;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;tertiary;Autre véhicule motorisé seulement;25;0;0;0.0;0;20;80.0;20;5;20.0;5;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;tertiary;Autre véhicule non motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;tertiary;Combinaison de tiers;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;tertiary;Piéton seul;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;tertiary;Solo (sans piéton);4;0;0;0.0;0;4;100.0;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;unclassified;Autre véhicule motorisé seulement;8;0;0;0.0;0;7;87.5;7;1;12.5;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;En agglomération;unclassified;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;Hors agglomération;primary;Autre véhicule motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;Hors agglomération;primary;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;Hors agglomération;secondary;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;Hors agglomération;service;Autre véhicule motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;EDP_SANS_MOTEUR;Hors agglomération;unclassified;Solo (sans piéton);2;0;0;0.0;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;cycleway;Autre véhicule motorisé seulement;8;0;2;25.0;2;5;62.5;5;2;25.0;2;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;cycleway;Autre véhicule non motorisé seulement;2;0;1;50.0;1;0;0.0;0;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;cycleway;Piéton seul;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;cycleway;Solo (sans piéton);8;0;0;0.0;0;7;87.5;7;0;0.0;0;1;12.5;1;0;0.0;0
+2021;VAE;En agglomération;living_street;Autre véhicule motorisé seulement;2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;living_street;Autre véhicule non motorisé seulement;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;living_street;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;primary;Autre véhicule du même catv seulement;2;0;1;50.0;1;2;100.0;4;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;primary;Autre véhicule motorisé seulement;78;0;2;2.56;2;62;79.49;62;12;15.38;12;2;2.56;2;0;0.0;0
+2021;VAE;En agglomération;primary;Autre véhicule non motorisé seulement;5;0;1;20.0;1;3;60.0;3;1;20.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;primary;Combinaison de tiers;1;0;0;0.0;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;primary;Piéton seul;9;0;5;55.56;6;4;44.44;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;primary;Solo (sans piéton);6;0;0;0.0;0;6;100.0;6;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;residential;Autre véhicule motorisé seulement;85;0;2;2.35;2;66;77.65;66;17;20.0;18;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;residential;Autre véhicule non motorisé seulement;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;residential;Piéton seul;12;0;11;91.67;11;1;8.33;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;residential;Solo (sans piéton);17;0;0;0.0;0;12;70.59;12;3;17.65;3;2;11.76;2;0;0.0;0
+2021;VAE;En agglomération;residential;Véhicule indéterminé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;secondary;Autre véhicule motorisé seulement;80;0;1;1.25;1;56;70.0;56;18;22.5;18;5;6.25;5;0;0.0;0
+2021;VAE;En agglomération;secondary;Autre véhicule non motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;secondary;Combinaison de tiers;1;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;secondary;Piéton seul;9;0;7;77.78;7;1;11.11;1;1;11.11;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;secondary;Solo (sans piéton);7;0;0;0.0;0;3;42.86;3;4;57.14;4;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;service;Autre véhicule motorisé seulement;13;0;0;0.0;0;7;53.85;7;6;46.15;6;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;service;Autre véhicule non motorisé seulement;3;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;service;Piéton seul;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;service;Solo (sans piéton);6;0;0;0.0;0;5;83.33;5;1;16.67;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;tertiary;Autre véhicule du même catv seulement;1;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;tertiary;Autre véhicule motorisé seulement;54;0;1;1.85;1;43;79.63;43;8;14.81;8;2;3.7;2;0;0.0;0
+2021;VAE;En agglomération;tertiary;Autre véhicule non motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;tertiary;Piéton seul;8;0;7;87.5;8;1;12.5;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;tertiary;Solo (sans piéton);12;0;0;0.0;0;10;83.33;10;2;16.67;2;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;track;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;track;Solo (sans piéton);1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;unclassified;Autre véhicule du même catv seulement;1;0;1;100.0;1;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VAE;En agglomération;unclassified;Autre véhicule motorisé seulement;20;0;0;0.0;0;12;60.0;12;7;35.0;7;1;5.0;1;0;0.0;0
+2021;VAE;En agglomération;unclassified;Solo (sans piéton);5;0;0;0.0;0;2;40.0;2;2;40.0;2;1;20.0;1;0;0.0;0
+2021;VAE;Hors agglomération;motorway;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0
+2021;VAE;Hors agglomération;primary;Autre véhicule motorisé seulement;10;0;0;0.0;0;3;30.0;3;4;40.0;4;3;30.0;3;0;0.0;0
+2021;VAE;Hors agglomération;primary;Solo (sans piéton);2;0;0;0.0;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0
+2021;VAE;Hors agglomération;residential;Autre véhicule motorisé seulement;3;0;0;0.0;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;secondary;Autre véhicule motorisé seulement;10;0;0;0.0;0;4;40.0;4;3;30.0;3;3;30.0;3;0;0.0;0
+2021;VAE;Hors agglomération;secondary;Combinaison de tiers;1;0;1;100.0;1;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;secondary;Solo (sans piéton);3;0;0;0.0;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;service;Autre véhicule du même catv seulement;1;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;service;Autre véhicule motorisé seulement;3;0;0;0.0;0;1;33.33;1;2;66.67;2;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;tertiary;Autre véhicule motorisé seulement;7;0;0;0.0;0;1;14.29;1;5;71.43;5;1;14.29;1;0;0.0;0
+2021;VAE;Hors agglomération;tertiary;Combinaison de tiers;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;tertiary;Solo (sans piéton);6;0;0;0.0;0;2;33.33;2;1;16.67;1;3;50.0;3;0;0.0;0
+2021;VAE;Hors agglomération;unclassified;Autre véhicule motorisé seulement;4;0;0;0.0;0;0;0.0;0;3;75.0;3;1;25.0;1;0;0.0;0
+2021;VAE;Hors agglomération;unclassified;Autre véhicule non motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;unclassified;Piéton seul;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VAE;Hors agglomération;unclassified;Solo (sans piéton);4;0;0;0.0;0;1;25.0;1;2;50.0;2;1;25.0;1;0;0.0;0
+2021;VELO;En agglomération;Non apparié;Autre véhicule du même catv seulement;1;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;Non apparié;Autre véhicule motorisé seulement;2;0;0;0.0;0;1;50.0;1;0;0.0;0;1;50.0;1;0;0.0;0
+2021;VELO;En agglomération;cycleway;Autre véhicule du même catv seulement;13;0;10;76.92;10;12;92.31;15;2;15.38;2;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;cycleway;Autre véhicule motorisé seulement;131;0;5;3.82;5;100;76.34;101;22;16.79;22;4;3.05;4;0;0.0;0
+2021;VELO;En agglomération;cycleway;Autre véhicule non motorisé seulement;2;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;cycleway;Piéton seul;20;0;15;75.0;15;4;20.0;4;1;5.0;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;cycleway;Solo (sans piéton);26;0;0;0.0;0;23;88.46;23;3;11.54;3;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;living_street;Autre véhicule du même catv seulement;3;0;1;33.33;1;3;100.0;5;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;living_street;Autre véhicule motorisé seulement;27;0;2;7.41;2;24;88.89;24;2;7.41;2;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;living_street;Autre véhicule non motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;living_street;Piéton seul;7;0;6;85.71;6;1;14.29;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;living_street;Solo (sans piéton);6;0;0;0.0;0;5;83.33;5;1;16.67;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;motorway;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;primary;Autre véhicule du même catv seulement;31;0;25;80.65;25;31;100.0;37;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;primary;Autre véhicule motorisé seulement;626;0;16;2.56;16;496;79.23;497;105;16.77;105;11;1.76;11;0;0.0;0
+2021;VELO;En agglomération;primary;Autre véhicule non motorisé seulement;6;0;3;50.0;3;2;33.33;2;1;16.67;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;primary;Combinaison de tiers;3;0;1;33.33;1;3;100.0;6;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;primary;Piéton seul;52;0;38;73.08;38;14;26.92;14;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;primary;Solo (sans piéton);81;0;0;0.0;0;67;82.72;67;12;14.81;12;2;2.47;2;0;0.0;0
+2021;VELO;En agglomération;primary;Véhicule indéterminé seulement;2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;residential;Autre véhicule du même catv seulement;30;0;22;73.33;22;29;96.67;34;4;13.33;5;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;residential;Autre véhicule motorisé seulement;939;0;26;2.77;26;740;78.81;744;171;18.21;172;10;1.06;10;0;0.0;0
+2021;VELO;En agglomération;residential;Autre véhicule non motorisé seulement;4;0;4;100.0;4;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;residential;Combinaison de tiers;8;0;2;25.0;2;7;87.5;11;3;37.5;3;1;12.5;1;0;0.0;0
+2021;VELO;En agglomération;residential;Piéton seul;79;0;65;82.28;66;14;17.72;14;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;residential;Solo (sans piéton);103;0;1;0.97;1;68;66.02;68;26;25.24;26;9;8.74;9;0;0.0;0
+2021;VELO;En agglomération;residential;Véhicule indéterminé seulement;10;0;0;0.0;0;6;60.0;6;4;40.0;4;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;secondary;Autre véhicule du même catv seulement;22;0;20;90.91;20;16;72.73;19;7;31.82;7;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;secondary;Autre véhicule motorisé seulement;827;0;18;2.18;18;612;74.0;616;192;23.22;192;10;1.21;10;0;0.0;0
+2021;VELO;En agglomération;secondary;Autre véhicule non motorisé seulement;3;0;3;100.0;3;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;secondary;Combinaison de tiers;10;0;0;0.0;0;8;80.0;12;3;30.0;3;1;10.0;1;0;0.0;0
+2021;VELO;En agglomération;secondary;Piéton seul;62;0;39;62.9;39;23;37.1;23;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;secondary;Solo (sans piéton);71;0;2;2.82;2;54;76.06;54;16;22.54;16;1;1.41;1;0;0.0;0
+2021;VELO;En agglomération;secondary;Véhicule indéterminé seulement;10;0;0;0.0;0;4;40.0;4;4;40.0;4;2;20.0;2;0;0.0;0
+2021;VELO;En agglomération;service;Autre véhicule du même catv seulement;8;0;3;37.5;3;8;100.0;13;1;12.5;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;service;Autre véhicule motorisé seulement;144;0;2;1.39;2;113;78.47;114;29;20.14;29;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;service;Autre véhicule non motorisé seulement;3;0;1;33.33;1;2;66.67;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;service;Piéton seul;11;0;8;72.73;8;3;27.27;3;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;service;Solo (sans piéton);19;0;1;5.26;1;17;89.47;17;1;5.26;1;1;5.26;1;0;0.0;0
+2021;VELO;En agglomération;service;Véhicule indéterminé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;tertiary;Autre véhicule du même catv seulement;15;0;12;80.0;12;10;66.67;12;5;33.33;5;1;6.67;1;0;0.0;0
+2021;VELO;En agglomération;tertiary;Autre véhicule motorisé seulement;624;0;15;2.4;15;466;74.68;470;138;22.12;138;8;1.28;8;0;0.0;0
+2021;VELO;En agglomération;tertiary;Autre véhicule non motorisé seulement;3;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;tertiary;Combinaison de tiers;6;0;2;33.33;2;4;66.67;5;2;33.33;2;2;33.33;2;0;0.0;0
+2021;VELO;En agglomération;tertiary;Piéton seul;47;0;29;61.7;29;15;31.91;15;2;4.26;2;0;0.0;0;1;2.13;1
+2021;VELO;En agglomération;tertiary;Solo (sans piéton);66;0;0;0.0;0;42;63.64;42;14;21.21;14;10;15.15;10;0;0.0;0
+2021;VELO;En agglomération;tertiary;Véhicule indéterminé seulement;3;0;0;0.0;0;2;66.67;2;1;33.33;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;track;Autre véhicule du même catv seulement;1;0;1;100.0;1;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;track;Autre véhicule motorisé seulement;2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;track;Solo (sans piéton);4;0;0;0.0;0;2;50.0;2;1;25.0;1;1;25.0;1;0;0.0;0
+2021;VELO;En agglomération;trunk;Autre véhicule motorisé seulement;7;0;0;0.0;0;5;71.43;5;1;14.29;1;1;14.29;1;0;0.0;0
+2021;VELO;En agglomération;trunk;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;unclassified;Autre véhicule du même catv seulement;4;0;2;50.0;2;4;100.0;6;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;unclassified;Autre véhicule motorisé seulement;187;0;4;2.14;4;126;67.38;127;50;26.74;50;9;4.81;9;0;0.0;0
+2021;VELO;En agglomération;unclassified;Combinaison de tiers;2;0;0;0.0;0;2;100.0;4;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;unclassified;Piéton seul;10;0;9;90.0;9;1;10.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;En agglomération;unclassified;Solo (sans piéton);26;0;0;0.0;0;14;53.85;14;8;30.77;8;4;15.38;4;0;0.0;0
+2021;VELO;Hors agglomération;Non apparié;Autre véhicule motorisé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;cycleway;Autre véhicule du même catv seulement;5;0;3;60.0;3;3;60.0;5;3;60.0;3;1;20.0;1;0;0.0;0
+2021;VELO;Hors agglomération;cycleway;Autre véhicule motorisé seulement;14;0;0;0.0;0;6;42.86;6;6;42.86;6;2;14.29;2;0;0.0;0
+2021;VELO;Hors agglomération;cycleway;Piéton seul;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;cycleway;Solo (sans piéton);6;0;0;0.0;0;2;33.33;2;3;50.0;3;1;16.67;1;0;0.0;0
+2021;VELO;Hors agglomération;motorway;Autre véhicule motorisé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;motorway;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;primary;Autre véhicule du même catv seulement;3;0;3;100.0;4;1;33.33;1;3;100.0;3;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;primary;Autre véhicule motorisé seulement;160;0;1;0.62;1;60;37.5;60;85;53.12;85;14;8.75;14;0;0.0;0
+2021;VELO;Hors agglomération;primary;Combinaison de tiers;4;0;2;50.0;4;1;25.0;2;3;75.0;7;2;50.0;2;0;0.0;0
+2021;VELO;Hors agglomération;primary;Solo (sans piéton);22;0;0;0.0;0;9;40.91;9;9;40.91;9;4;18.18;4;0;0.0;0
+2021;VELO;Hors agglomération;primary;Véhicule indéterminé seulement;2;0;0;0.0;0;1;50.0;1;0;0.0;0;1;50.0;1;0;0.0;0
+2021;VELO;Hors agglomération;residential;Autre véhicule du même catv seulement;1;0;1;100.0;1;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;residential;Autre véhicule motorisé seulement;25;0;0;0.0;0;13;52.0;13;11;44.0;11;1;4.0;1;0;0.0;0
+2021;VELO;Hors agglomération;residential;Combinaison de tiers;1;0;0;0.0;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;residential;Solo (sans piéton);2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;residential;Véhicule indéterminé seulement;1;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;secondary;Autre véhicule du même catv seulement;13;0;7;53.85;7;6;46.15;11;10;76.92;11;2;15.38;2;0;0.0;0
+2021;VELO;Hors agglomération;secondary;Autre véhicule motorisé seulement;197;0;1;0.51;1;71;36.04;71;100;50.76;100;25;12.69;25;0;0.0;0
+2021;VELO;Hors agglomération;secondary;Combinaison de tiers;17;0;5;29.41;11;13;76.47;36;6;35.29;6;2;11.76;3;0;0.0;0
+2021;VELO;Hors agglomération;secondary;Piéton seul;2;0;0;0.0;0;2;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;secondary;Solo (sans piéton);41;0;0;0.0;0;13;31.71;13;20;48.78;20;8;19.51;8;0;0.0;0
+2021;VELO;Hors agglomération;secondary;Véhicule indéterminé seulement;4;0;0;0.0;0;1;25.0;1;2;50.0;2;1;25.0;1;0;0.0;0
+2021;VELO;Hors agglomération;service;Autre véhicule motorisé seulement;16;0;0;0.0;0;9;56.25;9;5;31.25;5;2;12.5;2;0;0.0;0
+2021;VELO;Hors agglomération;service;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;tertiary;Autre véhicule du même catv seulement;9;0;6;66.67;6;4;44.44;6;5;55.56;6;1;11.11;1;0;0.0;0
+2021;VELO;Hors agglomération;tertiary;Autre véhicule motorisé seulement;166;0;1;0.6;3;58;34.94;58;87;52.41;87;20;12.05;20;0;0.0;0
+2021;VELO;Hors agglomération;tertiary;Combinaison de tiers;10;0;0;0.0;0;7;70.0;13;3;30.0;6;2;20.0;2;0;0.0;0
+2021;VELO;Hors agglomération;tertiary;Piéton seul;2;0;1;50.0;1;0;0.0;0;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;tertiary;Solo (sans piéton);60;0;0;0.0;0;12;20.0;12;38;63.33;38;10;16.67;10;0;0.0;0
+2021;VELO;Hors agglomération;tertiary;Véhicule indéterminé seulement;1;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;track;Autre véhicule du même catv seulement;1;0;0;0.0;0;1;100.0;2;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;track;Autre véhicule motorisé seulement;6;0;0;0.0;0;1;16.67;1;5;83.33;5;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;track;Combinaison de tiers;2;0;0;0.0;0;1;50.0;1;1;50.0;1;1;50.0;2;0;0.0;0
+2021;VELO;Hors agglomération;track;Solo (sans piéton);5;0;0;0.0;0;1;20.0;1;4;80.0;4;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;trunk;Autre véhicule motorisé seulement;7;0;0;0.0;0;7;100.0;7;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;trunk;Solo (sans piéton);1;0;0;0.0;0;0;0.0;0;0;0.0;0;1;100.0;1;0;0.0;0
+2021;VELO;Hors agglomération;unclassified;Autre véhicule du même catv seulement;5;0;1;20.0;1;3;60.0;5;5;100.0;6;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;unclassified;Autre véhicule motorisé seulement;75;0;0;0.0;0;25;33.33;25;41;54.67;41;9;12.0;9;0;0.0;0
+2021;VELO;Hors agglomération;unclassified;Autre véhicule non motorisé seulement;1;0;1;100.0;1;0;0.0;0;0;0.0;0;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;unclassified;Combinaison de tiers;4;0;3;75.0;4;3;75.0;4;2;50.0;2;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;unclassified;Piéton seul;2;0;0;0.0;0;1;50.0;1;1;50.0;1;0;0.0;0;0;0.0;0
+2021;VELO;Hors agglomération;unclassified;Solo (sans piéton);30;0;0;0.0;0;5;16.67;5;13;43.33;13;12;40.0;12;0;0.0;0

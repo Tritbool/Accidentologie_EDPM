@@ -1,0 +1,15 @@
+zone,highway,classification_access,accidents
+Hors agglomération,motorway,non_documente,4
+Hors agglomération,primary,access_generale_ouverte,1
+Hors agglomération,primary,non_documente,84
+Hors agglomération,residential,motor_vehicle_ouvert_explicite,1
+Hors agglomération,residential,non_documente,19
+Hors agglomération,secondary,non_documente,90
+Hors agglomération,service,non_documente,12
+Hors agglomération,service,restriction_access_generale,2
+Hors agglomération,tertiary,non_documente,59
+Hors agglomération,track,non_documente,4
+Hors agglomération,track,restriction_access_generale,1
+Hors agglomération,trunk,non_documente,9
+Hors agglomération,unclassified,access_generale_ouverte,1
+Hors agglomération,unclassified,non_documente,36
