@@ -13,7 +13,7 @@
 #
 # Usage :
 #   ./generate_all_candidates.sh
-#   RADIUS_M=100 ./generate_all_candidates.sh
+#   RADIUS_M=30 ./generate_all_candidates.sh
 #
 # Relance : une sortie existante est ignorée, jamais écrasée.
 # Une paire absente est signalée ; le script continue.
@@ -41,7 +41,7 @@ command -v uv >/dev/null 2>&1 || {
 if ! [[ "$RADIUS_M" =~ ^[0-9]+([.][0-9]+)?$ ]] ||
    [[ "$RADIUS_M" == "0" ]] ||
    [[ "$RADIUS_M" == "0.0" ]]; then
-  echo "ERREUR : RADIUS_M doit être un nombre positif, par exemple 100." >&2
+  echo "ERREUR : RADIUS_M doit être un nombre positif, par exemple 30." >&2
   exit 2
 fi
 
