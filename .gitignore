@@ -2,5 +2,4 @@
 osm
 .ipynb_checkpoints
 manifest.md
-outputs/maps
-outputs/tables
+outputs
