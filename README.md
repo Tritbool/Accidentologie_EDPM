@@ -1,34 +1,53 @@
-# Accidentologie EDPM
+# Accidentologie EDPM — BAAC × OpenStreetMap × ONISR
 
-Analyse ouverte de l’accidentalité des vélos, VAE et EDPM en France,
-avec caractérisation du réseau routier par les données BAAC et OpenStreetMap.
+Analyse ouverte de l'accidentalité des vélos, VAE, EDPM et cyclomoteurs en
+France (métropole et DROM-COM), de 2019 à 2024 : appariement de l'intégralité
+du BAAC géolocalisé aux classes de voies OpenStreetMap (couverture > 99 %),
+croisement avec les bilans annuels de l'ONISR, et examen de dix hypothèses
+(H0–H9) allant de la description à la recommandation d'aménagement.
 
-## Hypothèse
+## Motivation
 
 La catégorie réglementaire « hors agglomération » est trop grossière pour
-décrire le risque routier. Les accidents doivent être analysés selon les
-caractéristiques fonctionnelles et physiques des voies : rôle dans le réseau,
-trafic, vitesse, intersections, géométrie et infrastructures disponibles.
+décrire le risque routier des mobilités légères. Ce projet teste si la classe
+fonctionnelle de la voie (hiérarchie OSM, VMA, fréquentation) décrit mieux
+la gravité des accidents corporels, et en dérive des réponses explicites —
+chacune assortie de ses limites — sur des questions d'actualité réglementaire :
+dangerosité relative des EDPM, usage rural hors cadre légal, ouverture
+encadrée des voies peu fréquentées (H8), pertinence du plafond uniforme
+de 25 km/h au regard de l'hétérogénéité mécanique des engins (H9).
 
-## Périmètre initial
+## Périmètre
 
-- BAAC : année 2024
-- Cohortes : EDPM motorisés (`catv = 50`), vélo (`catv = 01`), VAE (`catv = 80`)
-- Localisation : France métropolitaine, puis extension explicite si les données
-  et extraits OSM correspondants sont ajoutés
-- Analyse principale : accidents hors agglomération (`agg = 1`)
+- **BAAC 2019–2024**, France métropolitaine + DROM-COM (Saint-Barthélemy et
+  Saint-Martin via l'extrait OSM Amérique centrale, Saint-Pierre-et-Miquelon
+  via l'extrait Canada)
+- **Cohortes** : EDPM (`catv = 50`), vélo sans assistance (`01`), VAE (`80`),
+  cyclomoteur (`02`), EDP sans moteur (`60`)
+- **Appariement OSM** : 11 classes `highway`, un extrait régional par année
+  (Geofabrik), rayon 30 m en projection métrique EPSG:2154
+- **Sources complémentaires** : bilans annuels ONISR 2019–2025, INSEE
+  (prix du gazole), Cerema EMC² (mobilités), littérature technique (H9)
+- **Analyses** : en agglomération et hors agglomération ; les comparaisons
+  de gravité portent sur les accidents corporels recensés, jamais sur un
+  risque par trajet ou par kilomètre
 
-## Limites
+## Structure du dépôt
 
-- La BAAC recense les accidents corporels connus des forces de l’ordre ;
-  elle ne mesure pas les quasi-accidents ni l’exposition.
-- `catv = 50` ne distingue pas les monoroues des autres EDPM motorisés.
-- Les attributs OSM reflètent la date de l’extrait, pas nécessairement
-  l’état exact de la voirie au jour de l’accident.
-- Un nombre d’accidents n’est pas un taux de risque sans données de kilomètres
-  parcourus par type de voie.
+- `src/` — conversion BAAC, extraction OSM, appariement, construction de
+  la table d'analyse, analyses H0–H9
+- `outputs/` — tables d'analyse, CSV agrégés, figures
+- `docs/` — [méthodologie détaillée](docs/METHODOLOGIE.md) et document
+  d'étude (H0–H9 avec réponses, annexes, intervalles de Wilson)
+- Les parquets BAAC bruts ne sont pas versionnés : les régénérer depuis
+  [data.gouv.fr](https://www.data.gouv.fr/) (Licence Ouverte)
 
-## Données et licences
+## Reproduire
 
-- BAAC / ONISR : Licence Ouverte
-- OpenStreetMap : © les contributeurs d’OpenStreetMap, ODbL
+```bash
+uv run python src/convert_baac_to_parquet.py
+uv run python src/extract_osm_roads.py
+uv run python src/bind_accident_road_candidates.py
+uv run python src/audit_global_matches.py
+uv run python src/build_accident_table.py
+# analyses H0–H9 : voir docs/METHODOLOGIE.md

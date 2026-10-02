@@ -12,6 +12,24 @@ Les quatre tables principales sont `caracteristiques`, `lieux`, `vehicules` et `
 
 Le script crée aussi `BAAC/derived/<année>/caract-<année>.geoparquet` à partir des coordonnées valides en EPSG:4326. Les coordonnées sans valeur utilisable ne deviennent pas des points fictifs.
 
+## Sources externes complémentaires
+
+Les analyses H4, H7 et H8 mobilisent des données externes au BAAC :
+
+- **Bilans annuels de l'ONISR (2019–2025)** : fiches « Les engins de déplacement
+  personnel motorisés », panorama « La gravité des blessures » (estimations MAIS
+  via le Registre du Rhône redressé), fiches « L'équipement du cycliste et de
+  l'utilisateur d'EDPM ». Les effectifs ONISR sont des usagers, nos décomptes
+  des accidents : les micro-écarts (630 contre 632 en 2019, périmètre incluant
+  les fauteuils roulants électriques et millésimes d'extraction différents)
+  sont attendus et documentés dans le document d'étude.
+- **INSEE** : série 000442588 (prix moyens mensuels du gazole), moyennes
+  annuelles calculées par le projet.
+- **Cerema, enquêtes EMC² 2021–2023** : parts modales et distances quotidiennes
+  par type de territoire.
+- **Littérature technique** (H9) : essais TRL/DfT sur la stabilité des
+  trottinettes selon le diamètre de roue.
+
 ## Routes OSM et appariement
 
 `src/extract_osm_roads.py` utilise Pyrosm pour lire les PBF, ne conserve que les classes de voie prévues (`motorway`, `trunk`, `primary`, `secondary`, `tertiary`, `unclassified`, `residential`, `living_street`, `service`, `track`, `cycleway`) et produit des GeoParquet routiers avec la classe `highway`, `osm_way_id` et les attributs disponibles sur la voie.
@@ -45,13 +63,48 @@ Le constructeur vérifie pour chaque gravité que `n_velo_* = n_velo_sans_assist
 
 `analyse_gravite_h0.py` est destiné à produire des lignes `année × mode × zone × type_voie` : nombre d’accidents du mode, accidents avec au moins une personne du mode dans chacun des quatre états, pourcentages rapportés aux accidents du même groupe, et nombres de personnes. Les modes comparés sont bicyclette `01`, VAE `80`, EDPM `50`, EDP sans moteur `60`, et cyclomoteur `02` uniquement hors agglomération. Ce script doit être exécuté **après** reconstruction des tables annuelles avec le schéma de gravité détaillé. Le notebook reste un outil de debug/exploration ; les résultats de production doivent être reproductibles par scripts.
 
+## Incertitude d'échantillonnage
+
+Toutes les parts (accidents mortels/sévères, marqueurs H9) sont des ratios k/n.
+Leur incertitude d'échantillonnage est quantifiée par l'intervalle de Wilson
+à 95 %, préféré à l'intervalle normal pour les petits n et les proportions
+proches de 0 :
+
+IC₉₅(k,n) = [p + z²/2n ± z√(p(1−p)/n + z²/4n²)] / (1 + z²/n),  z = 1,96
+
+Les intervalles couvrent la variabilité d'échantillonnage uniquement :
+ni le sous-enregistrement du BAAC (asymétrique — environ 70 % des blessés
+EDPM chutent seuls selon le Registre du Rhône, alors que ~73 % des accidents
+recensés comportent un obstacle mobile véhicule), ni l'incertitude
+d'appariement, ni l'absence de dénominateur d'exposition. Un chevauchement
+d'intervalles entre deux cellules signifie qu'aucun ordre n'est statistiquement
+établi ; le document d'étude qualifie chaque comparaison en ce sens.
+
 ## Hypothèses de travail
 
-Les propositions qui suivent sont des hypothèses à explorer, non des conclusions. H0 à H4 sont les identifiants de travail du projet, sans acception formelle d’hypothèse nulle ou alternative.
+Les hypothèses H0 à H9 sont examinées dans le document d'étude (voir docs/), qui fournit une réponse explicite à chacune ; cette page documente le cadre de production des données, pas les conclusions.
+
+### Sources par hypotheses
+
+Toutes les analyses s'exécutent depuis la racine du projet, par exemple :
+`uv run python src/analyse_h9_modes_support.py --start-year 2019 --end-year 2025`
+(année de fin exclue). Les paramètres par défaut de chaque script sont
+listés dans son en-tête docstring.
+
+
+- Les fichiers `src/analyse_gravite_h0.py`, `src/visualiser_gravite_h0_export.py`
+  sont utiles aux hypothèses H0, H1, H3, H4 et H6 : le premier produit les
+  comptes par année × mode × zone × classe de voie, le second le bilan annuel
+  agrégé (JSON et figures), également mobilisé par l'annexe figures du
+  document d'étude.
+- Les fichiers `src/analyse_h2_h5.py`, `src/analyse_tags_h2_h5.py` sont utiles
+  aux hypothèses H2 et H5.
+- Les fichiers `src/analyse_h9_modes_support.py`, `src/analyse_h9_resultats.py`
+  sont utiles à l'hypothèse H9.
 
 ### H0 — Type de voie
 
-Le type de voie est corrélé à la dangerosité des accidents impliquant des EDPM et des vélos.
+Le type de voie est associé à la dangerosité des accidents impliquant des EDPM et des vélos.
 
 ### H1 — Sites propres
 
@@ -82,6 +135,57 @@ VL et cyclomoteurs près des voies cyclables : compter les accidents impliquant 
 ### H6 — Position relative de la dangerosité des EDPM
 
 la dangerosité attribuée aux EDPM est mal estimée relativement à celle des vélos sans assistance, des VAE et des cyclomoteurs. Le sens et l'ampleur de l'écart sont déterminés par les comparaisons, et non fixés dans l'hypothèse.
+
+### H7 — Évolution rapportée à l'usage
+
+Lorsque l'usage des EDPM augmente, le nombre d'accidents corporels recensés
+augmente-t-il moins vite que le nombre de trajets ou de kilomètres parcourus ?
+Modèle descriptif : A_t = α·E_t^γ ; γ < 1 correspondrait à une croissance
+sous-linéaire. Le BAAC ne contient pas d'exposition : l'hypothèse n'est pas
+testable avec les seules données du projet ; les proxys ONISR (parc, part
+modale) ne suffisent pas à estimer γ.
+
+### H8 — Ouverture encadrée des voies rurales peu fréquentées
+
+À défaut de voie cyclable dédiée, les voies à très faible ou faible
+fréquentation (OSM `unclassified`, puis `tertiary`) devraient être ouvertes
+par défaut aux EDPM en zone rurale. Hypothèse normative, dérivée de H2, H3
+et H5 (prémisses P1–P3) et d'un contexte de demande documenté (parc,
+carburant, dépendance automobile rurale). Réponse conditionnelle : le
+comparateur pertinent est l'interdiction non appliquée, pas l'absence
+d'usage ; l'ouverture exige VMA cohérente, équipement effectif et suivi
+de l'exposition.
+
+### H9 — Pertinence du plafonnement uniforme à 25 km/h
+
+Les configurations compatibles avec une interaction véhicule–support sont-elles
+plus fréquentes pour les EDPM que pour les vélos, à contexte BAAC comparable ?
+Le plafonnement uniforme à 25 km/h peut-il constituer à lui seul un critère de
+sécurité pour des engins mécaniquement hétérogènes ?
+
+Méthode spécifique :
+
+- **Comparateur « vélo » = `catv 01 + 80` regroupés** (délibéré : grand diamètre
+  de roue commun, et le VAE partage le plafond de 25 km/h des EDPM, ce qui
+  apparie partiellement la dimension vitesse). En conséquence, les totaux
+  « vélo » de H9 ne sont pas la somme des colonnes vélo et VAE de H6 : un
+  accident comportant les deux catégories compte une fois.
+- **Marqueurs** : `support_compatible` (composite : sans obstacle mobile
+  véhicule ET au moins un signal parmi obstacle fixe, bordure, sortie de
+  chaussée, surface adverse, manœuvre d'évitement) ; « sans collision »
+  traité séparément. Les marqueurs décrivent des configurations codées,
+  jamais des causes établies.
+- **Standardisation** : comparaison dans les 369 cellules communes
+  année × zone × VMA × situation × surface ; taux pondérés par l'effectif
+  combiné des deux modes. Attention : la stratification porte sur la surface,
+  dont `surface_adverse` est une fonction — ce marqueur est structurellement
+  à parité dans le tableau standardisé et ne se compare qu'en brut.
+- **VMA** : depuis 2023, la table `lieux` peut avoir plusieurs lignes par
+  accident ; les sentinelles (-1, N/A, vide) sont « non renseignées » ;
+  ≥2 VMA positives distinctes = « VMA multiple » ; les analyses par classe
+  reposent sur les VMA uniques valides.
+- **Limite de sensibilité** : le sous-enregistrement des chutes seules EDPM
+  oriente le composite EDPM vers le bas, donc la comparaison vers le nul.
 
 ## Limites générales
 
