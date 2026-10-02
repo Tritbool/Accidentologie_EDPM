@@ -44,7 +44,11 @@ de 25 km/h au regard de l'hétérogénéité mécanique des engins (H9).
 
 ## Reproduire
 
+
 ```bash
+# Pour chaque année, configurer DATE_YYMMDD="${DATE_YYMMDD:-190101}"
+get_osm_pbf.sh
+# Puis
 uv run python src/convert_baac_to_parquet.py
 uv run python src/extract_osm_roads.py
 uv run python src/bind_accident_road_candidates.py
