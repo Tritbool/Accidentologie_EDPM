@@ -25,7 +25,7 @@ de 25 km/h au regard de l'hétérogénéité mécanique des engins (H9).
 - **Cohortes** : EDPM (`catv = 50`), vélo sans assistance (`01`), VAE (`80`),
   cyclomoteur (`02`), EDP sans moteur (`60`)
 - **Appariement OSM** : 11 classes `highway`, un extrait régional par année
-  (Geofabrik), rayon 30 m en projection métrique EPSG:2154
+  (Geofabrik), rayon 30 m en projection métrique (zone UTM locale estimée par extrait ; Lambert-93/EPSG:2154 en métropole)
 - **Sources complémentaires** : bilans annuels ONISR 2019–2025, INSEE
   (prix du gazole), Cerema EMC² (mobilités), littérature technique (H9)
 - **Analyses** : en agglomération et hors agglomération ; les comparaisons

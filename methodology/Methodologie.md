@@ -56,7 +56,7 @@ Quatre scripts shell à la racine automatisent les étapes volumineuses :
   présentes sont contiguës, le bilan global ; sorties protégées contre
   l'écrasement.
 
-`src/bind_accident_road_candidates.py` recherche les routes à proximité de chaque accident géolocalisé dans un système métrique (par défaut EPSG:2154). Le rayon est paramétrable, par défaut 30 m. La distance point–ligne est calculée pour les voies candidates ; une seule voie est conservée par accident et par extrait OSM, celle à distance minimale, avec départage stable des ex æquo. Les points hors de l’emprise d’un extrait ne figurent pas dans sa sortie. Un `unmatched` local peut être `matched` dans un autre extrait régional. Le résultat est stocké en GeoParquet.
+`src/bind_accident_road_candidates.py` recherche les routes à proximité de chaque accident géolocalisé dans un système métrique. Le rayon est paramétrable, par défaut 30 m. La projection est une zone UTM locale estimée par extrait (`estimate_utm_crs`) : équivalente au Lambert-93 (EPSG:2154) pour les extraits métropolitains, propre à chaque territoire pour l'outre-mer. La distance point–ligne est calculée pour les voies candidates ; une seule voie est conservée par accident et par extrait OSM, celle à distance minimale, avec départage stable des ex æquo. Les points hors de l’emprise d’un extrait ne figurent pas dans sa sortie. Un `unmatched` local peut être `matched` dans un autre extrait régional. Le résultat est stocké en GeoParquet.
 
 `src/audit_global_matches.py` compare pour chaque année les accidents BAAC géolocalisés à l’ensemble des sorties régionales. L’audit sépare `matched`, `evaluated_unmatched` et `not_evaluated`, et fournit un CSV par accident et une synthèse de couverture. Le taux de couverture ne prouve pas que la voie retenue est sémantiquement la bonne : ponts, niveaux superposés, pistes parallèles et imprécision des coordonnées restent à contrôler.
 
@@ -156,7 +156,7 @@ VL et cyclomoteurs près des voies cyclables : compter les accidents impliquant 
 
 ### H6 — Position relative de la dangerosité des EDPM
 
-la dangerosité attribuée aux EDPM est mal estimée relativement à celle des vélos sans assistance, des VAE et des cyclomoteurs. Le sens et l'ampleur de l'écart sont déterminés par les comparaisons, et non fixés dans l'hypothèse.
+La dangerosité attribuée aux EDPM est mal estimée relativement à celle des vélos sans assistance, des VAE et des cyclomoteurs. Le sens et l'ampleur de l'écart sont déterminés par les comparaisons, et non fixés dans l'hypothèse.
 
 ### H7 — Évolution rapportée à l'usage
 
