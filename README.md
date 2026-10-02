@@ -44,14 +44,26 @@ de 25 km/h au regard de l'hétérogénéité mécanique des engins (H9).
 
 ## Reproduire
 
-
 ```bash
-# Pour chaque année, configurer DATE_YYMMDD="${DATE_YYMMDD:-190101}"
-get_osm_pbf.sh
-# Puis
+# 1. Télécharger les extraits OSM (métropole, DROM, COM ; îles via osmium)
+./geofabrik_france_outremer.sh                      # DATE_YYMMDD=210101 par défaut
+
+# 2. Extraire les classes de voies en GeoParquet (toutes régions d'un snapshot)
+./extract_all_roads.sh osm/raw/geofabrik_osm_210101 osm/derived/210101
+
+# 3. Conversion BAAC (CSV -> Parquet + GeoParquet)
 uv run python src/convert_baac_to_parquet.py
-uv run python src/extract_osm_roads.py
-uv run python src/bind_accident_road_candidates.py
+
+# 4. Appariement accident-voie (tous millésimes × extraits OSM ; RADIUS_M=100 par défaut)
+./generate_all_candidates.sh
+
+# 5. Audit de couverture et table d'analyse finale
 uv run python src/audit_global_matches.py
 uv run python src/build_accident_table.py
-# analyses H0–H9 : voir docs/METHODOLOGIE.md
+
+# 6. Analyses (H0 global + analyses par hypothèse)
+./run_h0_analysis.sh
+uv run python src/analyse_h2_h5.py
+uv run python src/analyse_tags_h2_h5.py
+uv run python src/analyse_h9_modes_support.py --start-year 2019 --end-year 2025
+uv run python src/analyse_h9_resultats.py ...

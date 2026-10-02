@@ -34,6 +34,28 @@ Les analyses H4, H7 et H8 mobilisent des données externes au BAAC :
 
 `src/extract_osm_roads.py` utilise Pyrosm pour lire les PBF, ne conserve que les classes de voie prévues (`motorway`, `trunk`, `primary`, `secondary`, `tertiary`, `unclassified`, `residential`, `living_street`, `service`, `track`, `cycleway`) et produit des GeoParquet routiers avec la classe `highway`, `osm_way_id` et les attributs disponibles sur la voie.
 
+### Scripts d'orchestration
+
+Quatre scripts shell à la racine automatisent les étapes volumineuses :
+
+- `geofabrik_france_outremer.sh` : télécharge les 31 extraits Geofabrik
+  (métropole par région, Guadeloupe, Guyane, Martinique, Mayotte, La
+  Réunion, Nouvelle-Calédonie, Polynésie française, Wallis-et-Futuna) ;
+  Saint-Martin, Saint-Barthélemy et Saint-Pierre-et-Miquelon sont extraits
+  par bounding box avec `osmium` depuis les PBF Amérique centrale et Canada
+  (pas d'extrait Geofabrik dédié). Vérification md5, manifeste avec
+  SHA-256 et mention ODbL générés automatiquement. Note : la bounding box
+  de Saint-Martin couvre l'île entière, partie néerlandaise comprise.
+- `extract_all_roads.sh` : applique `extract_osm_roads.py` à tous les PBF
+  d'un snapshot.
+- `generate_all_candidates.sh` : apparie chaque millésime BAAC au snapshot
+  OSM du 1er janvier correspondant (`AA0101`), extrait par extrait, avec
+  projection UTM locale estimée par extrait (`estimate_utm_crs`) et rayon
+  paramétrable (`RADIUS_M`).
+- `run_h0_analysis.sh` : exécute l'analyse H0 par année et, si les années
+  présentes sont contiguës, le bilan global ; sorties protégées contre
+  l'écrasement.
+
 `src/bind_accident_road_candidates.py` recherche les routes à proximité de chaque accident géolocalisé dans un système métrique (par défaut EPSG:2154). Le rayon est paramétrable, par défaut 30 m. La distance point–ligne est calculée pour les voies candidates ; une seule voie est conservée par accident et par extrait OSM, celle à distance minimale, avec départage stable des ex æquo. Les points hors de l’emprise d’un extrait ne figurent pas dans sa sortie. Un `unmatched` local peut être `matched` dans un autre extrait régional. Le résultat est stocké en GeoParquet.
 
 `src/audit_global_matches.py` compare pour chaque année les accidents BAAC géolocalisés à l’ensemble des sorties régionales. L’audit sépare `matched`, `evaluated_unmatched` et `not_evaluated`, et fournit un CSV par accident et une synthèse de couverture. Le taux de couverture ne prouve pas que la voie retenue est sémantiquement la bonne : ponts, niveaux superposés, pistes parallèles et imprécision des coordonnées restent à contrôler.

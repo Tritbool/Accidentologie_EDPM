@@ -20,7 +20,7 @@
 #
 set -euo pipefail
 
-RADIUS_M="${RADIUS_M:-100}"
+RADIUS_M="${RADIUS_M:-30}"
 MATCHER="src/bind_accident_road_candidates.py"
 BAAC_ROOT="BAAC/derived"
 OSM_ROOT="osm/derived"
